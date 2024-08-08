@@ -1,11 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MSSN NSUK CHAPTER</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./vendor/Bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+    <link rel="stylesheet" href="./animations.css" />
+  </head>
+  <body id="index-body">
+    <!-- Start of Navbar -->
+    <section class="navbar navbar-expand-md" id="navbar-section">
+      <div class="container">
+        <a href="" class="navbar-brand d-flex gap-2">
+          <img
+            src="./images/logo.png"
+            class="img-fluid d-inline"
+            width="40"
+            height="30"
+            alt="logo"
+          />
+          <div
+            class="d-flex flex-column justify-content-center text-white"
+            style="font-size: 10px"
+          >
+            <span>Muslim Student Society Of Nigeria</span>
+            <span>NSUK Chapter</span>
+          </div>
+        </a>
+
+        <button class="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </button>
+
+        <ul class="navbar-nav collapse navbar-collapse justify-content-end">
+          <li class="nav-item">
+            <a href="" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Library & Resources</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Blog & Event</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="hamburger-menu px-5 py-3">
+      <div class="d-flex justify-content-between align-items-center mb-5 ">
+        <a href="" class="">
+          <img
+            src="./images/logo.png"
+            class="img-fluid"
+            width="40"
+            height="30"
+            alt="logo"
+          />
+        </a>
+        <button type="button" class="btn-close js-hamburger-close"></button>
+      </div>
+      <ul>
+        <li>
+          <a href="">Home</a>
+        </li>
+        <li>
+          <a href="">About</a>
+        </li>
+        <li>
+          <a href="">Library & Resources</a>
+        </li>
+        <li>
+          <a href="">Gallery</a>
+        </li>
+        <li>
+          <a href="">Blog & Event</a>
+        </li>
+      </ul>
+    </div>
+    <!-- End of Navbar -->
+
+    <!-- Hamburger -->
+    <script src="./vendor/Bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
 </html>
