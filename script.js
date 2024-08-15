@@ -1,11 +1,11 @@
 const hamburger = document.querySelector(".hamburger");
 const hamburgerMenu = document.querySelector(".hamburger-menu");
-const hamburgerCloseBtn = document.querySelector(".js-hamburger-close"); 
+const hamburgerCloseBtn = document.querySelector(".js-hamburger-close");
 
-hamburger.addEventListener("click",()=>{
-    hamburgerMenu.style.display = "block";
+hamburger.addEventListener("click", () => {
+  hamburgerMenu.style.display = "block";
 });
 
-hamburgerCloseBtn.addEventListener("click",() => {
-    hamburgerMenu.style.display = "none";
+hamburgerCloseBtn.addEventListener("click", () => {
+  hamburgerMenu.style.display = "none";
 });

@@ -1,3 +1,4 @@
+/* For Hamburger */
 @media all and (width <= 767px) {
   body {
     position: relative;
@@ -9,16 +10,44 @@
     position: absolute;
     top: 0;
     width: 100%;
-    height: 100vh;
+    z-index: 3;
+    height: 100%;
+    overflow: hidden;
     background-color: white;
     animation: hamburgerMenuSlideIn 1s;
   }
   @keyframes hamburgerMenuSlideIn {
     from {
-        transform: translateX(+600px);
+      transform: translateX(+600px);
     }
     to {
-        transform: translateX(0px);
+      transform: translateX(0px);
     }
+  }
+}
+/* For Our Excos Image Overlay */
+@media all and (width <= 991px) {
+  #our-excos-section > .container > .row > div > div {
+    left: 20%;
+  }
+}
+@media all and (width <= 767px) {
+  #our-excos-section > .container > .row > div > div {
+    left: 37%;
+  }
+}
+@media all and (width <= 480px) {
+  #our-excos-section > .container > .row > div > div {
+    left: 33%;
+  }
+}
+@media all and (width <= 365px) {
+  #our-excos-section > .container > .row > div > div {
+    left: 30%;
+  }
+}
+@media all and (width <= 300px) {
+  #our-excos-section > .container > .row > div > div {
+    left: 27%;
   }
 }
