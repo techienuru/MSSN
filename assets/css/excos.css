@@ -3,9 +3,18 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-body {
-  overflow-x: hidden;
+/* Scroll bar */
+::-webkit-scrollbar {
+  background-color: #04b054;
+  width: 15px;
 }
+
+::-webkit-scrollbar-thumb {
+  background-color: white;
+  width: 30px;
+  border-radius: 10px;
+}
+
 .header {
   width: 100%;
   padding: 70px 0px;
