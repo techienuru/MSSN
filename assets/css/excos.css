@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+.header {
+  width: 100%;
+  padding: 70px 0px;
+  background-image: linear-gradient(
+      rgba(0, 185, 86, 0.705),
+      rgba(0, 185, 86, 0.705)
+    ),
+    url("../../images/New\ mssn\ mosque.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.header h5 {
+  text-align: center;
+  color: #fff;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.mssn-excos {
+  width: fit-content;
+  margin: 0px auto 100px;
+}
+.mssn-excos:last-child {
+  margin-bottom: 50px;
+}
+.mssn-excos > h2 {
+  font-size: 2em;
+  text-align: center;
+  margin: 50px 0px 20px 0px;
+}
+
+.mssn-excos .excos {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  justify-content: center;
+}
+
+.mssn-excos .excos1 {
+  width: fit-content;
+  height: 330px;
+  position: relative;
+}
+
+.mssn-excos .excos .excos1 img {
+  height: 330px;
+  width: 330px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.472);
+  border-radius: 10px;
+  object-fit: cover;
+}
+.mssn-excos .excos .excos1 .overlay-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.mssn-excos .excos .excos1 .content {
+  text-align: center;
+  margin-bottom: -7%;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: black;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.609);
+  padding: 15px;
+}
+
+.mssn-excos .excos .excos1 .content > p:first-child {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.459);
+  padding: 0px 0px 1px 0px;
+  margin-bottom: 2px;
+}
+
+/* Responsiveness for Header */
+@media (max-width: 1113px) {
+  .header h5 {
+    font-size: 3em;
+  }
+}
+@media (max-width: 694px) {
+  .header h5 {
+    font-size: 2em;
+  }
+}
+@media (max-width: 455px) {
+  .header h5 {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 361px) {
+  .header {
+    width: 100vw;
+    padding: 40px 0px;
+    height: fit-content;
+  }
+  .header h5 {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 288px) {
+  .header h5 {
+    font-size: 1em;
+  }
+}
+
+/* Responsiveness for Excos Images */
+@media (max-width: 1032px) {
+  .mssn-excos .excos .excos1 img {
+    width: 300px;
+  }
+}
+@media (max-width: 952px) {
+  .mssn-excos .excos .excos1 img {
+    width: 270px;
+  }
+}
+
+@media (max-width: 864px) {
+  .mssn-excos .excos .excos1 img {
+    width: 240px;
+  }
+  .mssn-excos .excos .excos1 .content {
+    padding: 10px;
+  }
+
+  .mssn-excos .excos .excos1 .content > p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 770px) {
+  .mssn-excos .excos {
+    display: block;
+  }
+  .mssn-excos .excos .excos1 {
+    margin: 0 auto 50px;
+  }
+  .mssn-excos .excos .excos1 img {
+    width: 330px;
+  }
+}
+@media (max-width: 362px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 344px) {
+  .mssn-excos .excos .excos1 img {
+    width: 280px;
+  }
+}
+
+@media (max-width: 288px) {
+  .mssn-excos .excos .excos1 img {
+    width: 230px;
+  }
+}
