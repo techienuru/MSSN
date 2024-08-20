@@ -1,0 +1,338 @@
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: sans-serif; /* Fall back Font Family */
+  font-family: "Gupter", serif; /* Google Font */
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px;
+  background-image: linear-gradient(
+      rgba(0, 185, 86, 0.705),
+      rgba(0, 185, 86, 0.705)
+    ),
+    url("../../images/New\ mssn\ mosque.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header h1 {
+  text-transform: uppercase;
+  font-size: 54px;
+  color: white;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.body {
+  padding: 45px;
+}
+
+.latestEvent h3 {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.recentEvent h3 {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.recentEvent {
+  margin: 25px;
+}
+
+.latestEvent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.latestEvent {
+  margin: 25px;
+}
+
+.boder {
+  width: 100%;
+  height: auto;
+  border: 2px solid #000;
+  outline: 2px;
+  padding: auto;
+  position: sticky;
+}
+
+.boder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recentEvent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogSection p {
+  text-transform: capitalize;
+  font-size: 40px;
+}
+
+.blogSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogSection {
+  margin: 25px;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section {
+  width: 100%;
+  height: auto;
+}
+
+.section-img img {
+  width: 100%;
+  height: 200px;
+}
+
+.section-text {
+  width: 50%;
+  height: auto;
+  padding: 30px 0;
+}
+
+.section-text h4 {
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.date-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
+.date-name small {
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.text small {
+  font-size: 18px;
+}
+
+.date {
+  width: 20%;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 0;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.date p {
+  font-weight: bold;
+  font-size: 100px;
+  color: #1fac08;
+  display: block;
+  margin: 0;
+  padding: 0;
+  gap: 0;
+}
+.date span {
+  font-weight: bold;
+  font-size: 40px;
+  display: block;
+}
+
+.daawahEvent {
+  width: 80%;
+  height: auto;
+  position: relative;
+}
+
+.daawahEvent p {
+  text-transform: capitalize;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.venueTime {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
+.venueTime small {
+  font-size: 21px;
+  text-transform: capitalize;
+}
+
+.daawahEvent small {
+  text-transform: capitalize;
+  font-size: 21px;
+}
+
+.daawahEvent a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+  .latestEvent,
+  .recentEvent,
+  .blogSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .header-img img {
+    height: 150px;
+  }
+
+  .header-img {
+    height: 150px;
+  }
+
+  .header h1 {
+    font-size: 16px;
+    padding: 100px 0;
+  }
+
+  .body {
+    padding: 20px;
+  }
+
+  .latestEvent,
+  .recentEvent,
+  .blogSection {
+    margin: 10px;
+  }
+
+  .latestEvent h3 {
+    font-size: 14px;
+  }
+  .recentEvent h3 {
+    font-size: 14px;
+  }
+
+  .section-img img {
+    height: 150px;
+  }
+
+  .section-text {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .section-text h4 {
+    font-size: 15px;
+  }
+
+  .date-name {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .date-name small {
+    font-size: 12px;
+  }
+
+  .text small {
+    font-size: 12px;
+  }
+
+  .blogSection p {
+    font-size: 25px;
+  }
+
+  .date p {
+    font-size: 40px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+  }
+
+  .boder {
+    width: 100%;
+    height: 200px;
+    border: 2px solid #000;
+    outline: 2px;
+    padding: auto;
+    position: sticky;
+  }
+
+  .date span {
+    font-size: 20px;
+  }
+
+  .daawahEvent p {
+    font-size: 16px;
+  }
+
+  .daawahEvent small {
+    font-size: 10px;
+  }
+
+  .venueTime {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .venueTime small {
+    font-size: 10px;
+  }
+
+  .daawahEvent a {
+    font-size: 12px;
+  }
+}
