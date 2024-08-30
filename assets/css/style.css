@@ -145,6 +145,9 @@ body {
   box-shadow: 0px 0px 2px black;
   transform: scale(1.02);
 }
+#our-excos-section > .container > .row > div .img-fluid {
+  border-radius: 20px;
+}
 #our-excos-section > .container > .row > div > .overlay-wrapper {
   position: absolute;
   z-index: 1;
@@ -183,6 +186,30 @@ body {
   color: black;
   border: 1px solid #04b054;
   font-weight: bold;
+}
+#index-body .details-btn {
+  background-color: transparent;
+  color: black;
+  border: 1px solid #04b054;
+  font-weight: bold;
+  position: relative;
+}
+#index-body .details-btn::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  background-color: #04b054;
+  width: 0%;
+  height: 100%;
+  transition: ease-in 0.2s;
+}
+#index-body .details-btn:hover {
+  color: white;
+}
+#index-body .details-btn:hover::before {
+  width: 100%;
 }
 /* End of Index Hero Section */
 

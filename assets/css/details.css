@@ -1,0 +1,29 @@
+body {
+  font-family: "Gupter", serif;
+}
+
+/* Scroll bar */
+::-webkit-scrollbar {
+  background-color: #04b054;
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: white;
+  width: 30px;
+  border-radius: 10px;
+}
+
+/* hero section */
+#hero-section {
+  background-image: linear-gradient(
+      to top,
+      rgba(4, 175, 84, 0.55),
+      rgba(4, 175, 84, 0.55)
+    ),
+    url(../../images/New\ mssn\ mosque.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
