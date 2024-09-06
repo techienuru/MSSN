@@ -211,6 +211,9 @@ body {
 #index-body .details-btn:hover::before {
   width: 100%;
 }
+.text-justify {
+  text-align: justify;
+}
 /* End of Index Hero Section */
 
 /* Start of Faqs Section */
