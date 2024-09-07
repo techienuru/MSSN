@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+  font-size: 16px;
+  background-color: rgba(248, 255, 251, 0.705);
+}
+
+.header {
+  width: 100%;
+  padding: 70px 0;
+  background-image: linear-gradient(
+      rgba(0, 185, 86, 0.705),
+      rgba(0, 185, 86, 0.705)
+    ),
+    url("../../images/New\ mssn\ mosque.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.header h5 {
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.about,
+.our-vision,
+.developers {
+  /* background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: center; */
+  background-color: rgba(248, 255, 251, 0.705);
+  padding: 50px 70px;
+  /* margin: 10px; */
+}
+
+.about-info,
+.vision-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.about-info img {
+  width: 100%;
+  max-width: 150px;
+  margin: 10px;
+}
+
+.about-info p,
+.vision-info p {
+  flex: 1;
+  margin: 10px;
+}
+
+.o-vs-header p,
+.dev-header p {
+  text-align: center;
+  font-size: 2em;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.mssn-excos {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  gap: 30px;
+  margin: 20px;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.excos1 {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+}
+
+.excos1 img {
+  width: 100%;
+  height: auto;
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.472);
+  border-radius: 10px;
+}
+
+.content {
+  position: absolute;
+  bottom: 1px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  width: 80%;
+  height: 12%;
+  padding: 5px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.609);
+}
+
+.content p {
+  margin: 0;
+  font-size: 1em;
+}
+
+/* Justify the text in the paragraphs */
+.about .about-info p,
+.our-vision .vision-info p,
+.our-vision .info p {
+  text-align: justify;
+}
+
+@media (max-width: 868px) {
+  .header h5 {
+    font-size: 2em;
+  }
+
+  .o-vs-header p,
+  .dev-header p {
+    font-size: 1.5em;
+  }
+
+  .about-info,
+  .vision-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-info img {
+    max-width: 100px;
+  }
+  .about,
+  .our-vision,
+  .developers {
+    padding: 20px 30px;
+  }
+
+  .mssn-excos {
+    grid-template-columns: 240px 240px;
+  }
+}
+
+@media (max-width: 580px) {
+  .header {
+    padding: 40px 0;
+  }
+
+  .header h5 {
+    font-size: 1.5em;
+  }
+
+  .content p {
+    font-size: 0.9em;
+  }
+
+  .about-info img {
+    max-width: 80px;
+  }
+
+  .about,
+  .our-vision,
+  .developers {
+    padding: 30px 20px;
+  }
+
+  .mssn-excos {
+    grid-template-columns: 350px;
+  }
+}

@@ -25,19 +25,19 @@
 
         <ul class="navbar-nav collapse navbar-collapse justify-content-end">
             <li class="nav-item">
-                <a href="./index.html" class="nav-link active">Home</a>
+                <a href="./index.php" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link">About</a>
+                <a href="./about.php" class="nav-link">About</a>
             </li>
             <li class="nav-item">
-                <a href="./library.html" class="nav-link">Library & Resources</a>
+                <a href="./library.php" class="nav-link">Library & Resources</a>
             </li>
             <li class="nav-item">
-                <a href="./excos.html" class="nav-link">Excos</a>
+                <a href="./excos.php" class="nav-link">Excos</a>
             </li>
             <li class="nav-item">
-                <a href="./blog.html" class="nav-link">Blog & Event</a>
+                <a href="./blog.php" class="nav-link">Blog & Event</a>
             </li>
         </ul>
     </div>
@@ -57,19 +57,19 @@
     </div>
     <ul>
         <li>
-            <a href="./index.html">Home</a>
+            <a href="./index.php">Home</a>
         </li>
         <li>
-            <a href="">About</a>
+            <a href="./about.php">About</a>
         </li>
         <li>
-            <a href="./library.html">Library & Resources</a>
+            <a href="./library.php">Library & Resources</a>
         </li>
         <li>
-            <a href="./excos.html">Our Excos</a>
+            <a href="./excos.php">Our Excos</a>
         </li>
         <li>
-            <a href="./blog.html">Blog & Event</a>
+            <a href="./blog.php">Blog & Event</a>
         </li>
     </ul>
 </div>

@@ -38,11 +38,11 @@
              <div class="col">
                  <h5>Quick Links</h5>
                  <ul class="row row-cols-2 justify-content-end">
-                     <a href="./index.html" class="nav-link">Home</a>
-                     <a href="" class="nav-link">About</a>
-                     <a href="./library.html" class="nav-link">Library & Resources</a>
-                     <a href="./excos.html" class="nav-link">Excos</a>
-                     <a href="./blog.html" class="nav-link">Blog & Event</a>
+                     <a href="./index.php" class="nav-link">Home</a>
+                     <a href="./about.php" class="nav-link">About</a>
+                     <a href="./library.php" class="nav-link">Library & Resources</a>
+                     <a href="./excos.php" class="nav-link">Excos</a>
+                     <a href="./blog.php" class="nav-link">Blog & Event</a>
                      <a href="#" class="nav-link">#To top</a>
                  </ul>
              </div>

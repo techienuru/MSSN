@@ -6,6 +6,10 @@
 body {
   font-family: "Gupter", serif;
 }
+/* Stops the body from scrolling when hamburger is clicked */
+/* .no-scroll {
+  overflow: hidden;
+} */
 
 /* Scroll bar */
 ::-webkit-scrollbar {
@@ -25,22 +29,22 @@ body {
 
 /* Start of Index Navbar */
 
-#index-body #navbar-section {
+#navbar-section {
   background-color: #04b054;
   position: sticky;
   z-index: 2;
   top: 0px;
 }
-#index-body .navbar-nav > li {
+.navbar-nav > li {
   padding: 20px;
 }
-#index-body .navbar-nav > li > a {
+.navbar-nav > li > a {
   position: relative;
   color: white;
   width: fit-content;
   padding: 0px;
 }
-#index-body .navbar-nav > li > a::before {
+.navbar-nav > li > a::before {
   display: none;
   content: "";
   background-color: white;
@@ -49,7 +53,7 @@ body {
   position: absolute;
   bottom: 0;
 }
-#index-body .navbar-nav > li > a:hover::before {
+.navbar-nav > li > a:hover::before {
   display: block;
   animation: slideIn 0.5s;
 }
@@ -103,7 +107,7 @@ body {
 /* End of Index Navbar */
 
 /* End of Index Hero Section */
-#hero-section {
+#index-body #hero-section {
   height: 400px;
   background-image: linear-gradient(
       to top,
@@ -116,7 +120,7 @@ body {
   background-size: cover;
   background-attachment: scroll;
 }
-#hero-section > h3 > span {
+#index-body #hero-section > h3 > span {
   display: block;
   font-size: 30px;
   font-weight: bold;

@@ -6,13 +6,14 @@
   .hamburger {
     display: block;
   }
+
   .hamburger-menu {
     position: absolute;
     top: 0;
+    left: 0;
     width: 100%;
     z-index: 3;
     height: 100%;
-    overflow: hidden;
     background-color: white;
     animation: hamburgerMenuSlideIn 1s;
   }

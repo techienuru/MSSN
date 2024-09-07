@@ -142,20 +142,28 @@
                                     <div class="col-sm-4">
                                         <div class="page-header float-left">
                                             <div class="page-title">
-                                                <h1>Dashboard</h1>
+                                                <h1>All Excos</h1>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-sm-8">
-                                        <div class="page-header float-right">
-                                            <div class="page-title">
-                                                <ol class="breadcrumb text-right">
-                                                    <li><a href="#">Dashboard</a></li>
-                                                    <li><a href="#">Table</a></li>
-                                                    <li class="active">Data table</li>
-                                                </ol>
+                                        <form action="" method="POST" autocomplete="off">
+                                            <div class="mb-3">
+                                                <label for="session" class="form-label">Session</label>
+                                                <select name="session" id="session" class="form-control" required>
+                                                    <option value="">Select Session</option>
+                                                    <option value="2018/2029">2018/2019</option>
+                                                    <option value="2019/2020">2019/2020</option>
+                                                    <option value="2020/2021">2020/2021</option>
+                                                    <option value="2021/2022">2021/2022</option>
+                                                    <option value="2022/2023">2022/2023</option>
+                                                    <option value="2023/2024">2023/2024</option>
+                                                    <option value="2024/2025">2024/2025</option>
+                                                </select>
                                             </div>
-                                        </div>
+                                            <input type="submit" value="" class="btn">
+                                            <button type="button" class="btn btn-success">Filter</button>
+                                        </form>
                                     </div>
                                 </div>
 
@@ -197,6 +205,19 @@
                 <div class="modal-body">
                     <form id="addExcoForm">
                         <div class="mb-3">
+                            <label for="session" class="form-label">Session</label>
+                            <select name="session" id="session" class="form-control" required>
+                                <option value="">Select Session</option>
+                                <option value="2018/2029">2018/2019</option>
+                                <option value="2019/2020">2019/2020</option>
+                                <option value="2020/2021">2020/2021</option>
+                                <option value="2021/2022">2021/2022</option>
+                                <option value="2022/2023">2022/2023</option>
+                                <option value="2023/2024">2023/2024</option>
+                                <option value="2024/2025">2024/2025</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
                             <label for="excoName" class="form-label">Exco Name</label>
                             <input type="text" class="form-control" id="excoName" required>
                         </div>
@@ -205,8 +226,17 @@
                             <input type="text" class="form-control" id="excoPosition" required>
                         </div>
                         <div class="mb-3">
-                            <label for="excoImage" class="form-label">Image URL</label>
-                            <input type="url" class="form-control" id="excoImage" required>
+                            <label for="excoPosition" class="form-label">Position</label>
+                            <select name="excoPosition" id="excoPosition" class="form-control" required>
+                                <option value="">Select Exco Position</option>
+                                <option value="Central Ameer">Central Ameer</option>
+                                <option value="Secretary General">Secretary General</option>
+                                <option value="Central Ameera">Central Ameera</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="excoImage" class="form-label">Image</label>
+                            <input type="file" class="form-control" id="excoImage" required>
                         </div>
                         <div class="modal-footer">
                             <button type="submit" class="btn btn-add-exco">Add Exco</button>
