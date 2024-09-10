@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <style>
-        .btn-add-blog {
+        .btn-add-event {
             background-color: #03a9f3;
             border: none;
             color: white;
@@ -29,7 +29,7 @@
             transition: background-color 0.3s ease;
         }
 
-        .btn-add-blog:hover {
+        .btn-add-event:hover {
             background-color: #0288d1;
         }
 
@@ -146,15 +146,15 @@
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="box-title">Blog</h4>
-                                <small>Add and manage projects & past events</small>
+                                <h4 class="box-title">Events</h4>
+                                <small>Add and manage upcoming events</small>
                             </div>
 
                             <div class="card-body">
                                 <!-- Content fall here -->
                                 <div class="text-center mb-4">
-                                    <button class="btn btn-add-blog" data-toggle="modal" data-target="#addPqModal">
-                                        Add New Blog
+                                    <button class="btn btn-add-event" data-toggle="modal" data-target="#addPqModal">
+                                        Add New Event
                                     </button>
                                 </div>
 
@@ -162,7 +162,7 @@
                                     <div class="col-sm-4">
                                         <div class="page-header float-left">
                                             <div class="page-title">
-                                                <h1>All Projects & Past Events</h1>
+                                                <h1>Manage Events</h1>
                                             </div>
                                         </div>
                                     </div>
@@ -177,6 +177,7 @@
                                                     <thead>
                                                         <tr>
                                                             <th>Title</th>
+                                                            <th>Location</th>
                                                             <th>Date</th>
                                                             <th>Time</th>
                                                             <th>Image</th>
@@ -186,13 +187,16 @@
                                                     <tbody>
                                                         <tr>
                                                             <td>
-                                                                MSSN NSUK Commence the re-construction of Old central Mosque
+                                                                SendForth Walimah/Inuagration day
                                                             </td>
                                                             <td>
-                                                                Thur, Sep 9 2024
+                                                                1,000 seater auditorium
                                                             </td>
                                                             <td>
-                                                                10:00 am
+                                                                Sun, Sep 8 2024
+                                                            </td>
+                                                            <td>
+                                                                9:00 am
                                                             </td>
                                                             <td>
                                                                 <a href="../../images/logo.png" target="_blank" rel="noopener noreferrer">MTH112 - 21/22</a>
@@ -201,11 +205,8 @@
                                                                 <button class="btn btn-sm btn-warning mr-2" title="edit" data-toggle="modal" data-target="#editPq">
                                                                     <i class="fa fa-edit" aria-hidden="true"></i>
                                                                 </button>
-                                                                <button class="btn btn-sm btn-danger mr-2" title="delete">
+                                                                <button class="btn btn-sm btn-danger" title="delete">
                                                                     <i class="fa fa-trash" aria-hidden="true"></i>
-                                                                </button>
-                                                                <button class="btn btn-sm btn-secondary" title="add event files" data-toggle="modal" data-target="#addEventFiles">
-                                                                    <i class="fa fa-plus" aria-hidden="true"></i>
                                                                 </button>
                                                             </td>
                                                         </tr>
@@ -224,7 +225,6 @@
                     </div><!-- /# column -->
                 </div>
                 <!--  /Traffic -->
-
             </div>
             <!-- .animated -->
         </div>
@@ -241,33 +241,38 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header d-flex">
-                    <h5 class="modal-title" id="addPqModalLabel">Add New Blog</h5>
+                    <h5 class="modal-title" id="addPqModalLabel">Add New Event</h5>
                     <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <form action="" method="POST" enctype="multipart/form-data">
                         <div class="mb-3">
-                            <label for="title" class="form-label">Blog Title</label>
+                            <label for="title" class="form-label">Event Title</label>
                             <input type="text" class="form-control" id="title" name="title" required>
                         </div>
 
                         <div class="mb-3">
-                            <label for="teaser" class="form-label">Blog Teaser</label>
+                            <label for="teaser" class="form-label">Event Teaser</label>
                             <textarea class="form-control" id="teaser" name="teaser" rows="3" name="content" required></textarea>
                         </div>
 
                         <div class="mb-3">
-                            <label for="content" class="form-label">Blog Content/Details</label>
+                            <label for="content" class="form-label">Event Content/Details</label>
                             <textarea class="form-control" id="content" rows="5" name="content" required></textarea>
                         </div>
 
                         <div class="mb-3">
-                            <label for="date" class="form-label">Blog Date</label>
+                            <label for="location" class="form-label">Event Location</label>
+                            <input type="text" class="form-control" id="location" name="location" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="date" class="form-label">Event Date</label>
                             <input type="date" class="form-control" id="date" name="date" required>
                         </div>
 
                         <div class="mb-3">
-                            <label for="time" class="form-label">Blog Time</label>
+                            <label for="time" class="form-label">Event Time</label>
                             <input type="time" class="form-control" id="time" name="time" required>
                         </div>
 
@@ -277,7 +282,7 @@
                         </div>
 
                         <div class="modal-footer">
-                            <button type="submit" class="btn btn-add-blog">Add Blog</button>
+                            <button type="submit" class="btn btn-add-event">Add Event</button>
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                         </div>
                     </form>
@@ -290,38 +295,48 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header d-flex">
-                    <h5 class="modal-title" id="editPqModalLabel">Edit Blog</h5>
+                    <h5 class="modal-title" id="editPqModalLabel">Edit Event</h5>
                     <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <form action="" method="POST">
                         <div class="mb-3">
-                            <label for="title" class="form-label">Blog Title</label>
+                            <label for="title" class="form-label">Event Title</label>
                             <input type="text" class="form-control" id="title" name="title" required>
                         </div>
 
                         <div class="mb-3">
-                            <label for="teaser" class="form-label">Blog Teaser</label>
-                            <textarea class="form-control" id="teaser" name="teaser" rows="3" name="content" required></textarea>
+                            <label for="teaser" class="form-label">Event Teaser</label>
+                            <input type="text" class="form-control" id="teaser" name="teaser" required>
                         </div>
 
                         <div class="mb-3">
-                            <label for="content" class="form-label">Blog Content/Details</label>
+                            <label for="content" class="form-label">Event Content/Details</label>
                             <textarea class="form-control" id="content" rows="5" name="content" required></textarea>
                         </div>
 
                         <div class="mb-3">
-                            <label for="date" class="form-label">Blog Date</label>
-                            <input type="date" class="form-control" id="date" name="date" required>
+                            <label for="location" class="form-label">Event Location</label>
+                            <input type="text" class="form-control" id="location" name="location" required>
                         </div>
 
                         <div class="mb-3">
-                            <label for="time" class="form-label">Blog Time</label>
+                            <label for="date" class="form-label">Event Date</label>
+                            <input type="date" class="form-control" min="2024-09-10" id="date" name="date" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="time" class="form-label">Event Time</label>
                             <input type="time" class="form-control" id="time" name="time" required>
                         </div>
 
+                        <div class="mb-3">
+                            <label for="image" class="form-label">Upload Image</label>
+                            <input type="file" class="form-control" id="image" name="image" required>
+                        </div>
+
                         <div class="modal-footer">
-                            <button type="submit" class="btn btn-add-blog">Update PQ</button>
+                            <button type="submit" class="btn btn-add-event">Update Event</button>
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                         </div>
                     </form>
@@ -330,38 +345,6 @@
         </div>
     </div>
 
-    <!-- Modal for Adding Blog Media -->
-    <div class="modal fade" id="addEventFiles" tabindex="-1" aria-labelledby="addEventFilesLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="addEventFilesLabel">Add Media Files for Blog</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
-                </div>
-                <div class="modal-body">
-                    <form action="" method="POST">
-                        <div class="mb-3">
-                            <label for="mediaType" class="form-label">Select Media Type</label>
-                            <select id="mediaType" class="form-control" name="media_type" required>
-                                <option value="image">Images</option>
-                                <option value="video">Videos</option>
-                            </select>
-                        </div>
-                        <div class="mb-3">
-                            <label for="mediaFiles" class="form-label">Upload Files</label>
-                            <input type="file" class="form-control" id="mediaFiles" name="file" accept="image/*, video/*" multiple required>
-                            <small class="text-muted">Use control(ctrl) select multiple images or videos</small>
-                        </div>
-                        <div id="previewSection" class="mt-3"></div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary" id="saveMediaBtn">Save Media</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@2.2.4/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.4/dist/umd/popper.min.js"></script>

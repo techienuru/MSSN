@@ -73,24 +73,32 @@
                     </li>
                     <li class="menu-title">Navigations</li>
                     <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-table"></i>Blog & Event</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-plus"></i>Make Addition</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="fa fa-table"></i><a href="blog.php">Blog</a></li>
-                            <li><i class="fa fa-table"></i><a href="events.php">Events</a></li>
+                            <li><i class="fa fa-clock-o"></i><a href="add-session.php">Session</a></li>
+                            <li><i class="fa fa-university"></i><a href="add-faculty.php">Faculty</a></li>
+                            <li><i class="fa fa-building"></i><a href="add-department.php">Department</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-th"></i>Library & Resources</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-bookmark"></i>Blog & Event</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="menu-icon fa fa-th"></i><a href="past-q&a.php">Past Q & A</a></li>
-                            <li><i class="menu-icon fa fa-th"></i><a href="islamic-ebook.php">Islamic E-Books</a></li>
+                            <li><i class="fa fa-edit"></i><a href="blog.php">Blog</a></li>
+                            <li><i class="fa fa-calendar"></i><a href="events.php">Events</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-book"></i>Library & Resources</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon fa fa-file"></i><a href="past-q&a.php">Past Q & A</a></li>
+                            <li><i class="menu-icon fa fa-book"></i><a href="islamic-ebook.php">Islamic E-Books</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="excos.php"> <i class="menu-icon fa fa-th"></i>Excos</a>
+                        <a href="excos.php"> <i class="menu-icon fa fa-users"></i>Excos</a>
                     </li>
                     <li>
-                        <a href="ask-and-learn.php"> <i class="menu-icon fa fa-th"></i>Ask & learn </a>
+                        <a href="ask-and-learn.php"> <i class="menu-icon fa fa-question-circle"></i>Ask & learn </a>
                     </li>
                 </ul>
             </div><!-- /.navbar-collapse -->
@@ -128,8 +136,10 @@
                                     </div>
                                     <div class="stat-content">
                                         <div class="text-left dib">
-                                            <div class="stat-text">$<span class="count">23569</span></div>
-                                            <div class="stat-heading">Revenue</div>
+                                            <div class="stat-text">
+                                                <span class="count">10</span>
+                                            </div>
+                                            <div class="stat-heading">Faculties</div>
                                         </div>
                                     </div>
                                 </div>
@@ -147,7 +157,7 @@
                                     <div class="stat-content">
                                         <div class="text-left dib">
                                             <div class="stat-text"><span class="count">3435</span></div>
-                                            <div class="stat-heading">Sales</div>
+                                            <div class="stat-heading">Department</div>
                                         </div>
                                     </div>
                                 </div>
@@ -165,7 +175,7 @@
                                     <div class="stat-content">
                                         <div class="text-left dib">
                                             <div class="stat-text"><span class="count">349</span></div>
-                                            <div class="stat-heading">Templates</div>
+                                            <div class="stat-heading">Sessions</div>
                                         </div>
                                     </div>
                                 </div>
@@ -183,7 +193,7 @@
                                     <div class="stat-content">
                                         <div class="text-left dib">
                                             <div class="stat-text"><span class="count">2986</span></div>
-                                            <div class="stat-heading">Clients</div>
+                                            <div class="stat-heading">Visitors</div>
                                         </div>
                                     </div>
                                 </div>

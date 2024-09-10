@@ -6,61 +6,6 @@
 
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="./assets/css/style.css">
-    <style>
-        .btn-add-exco {
-            background-color: #03a9f3;
-            border: none;
-            color: white;
-            font-size: 18px;
-            padding: 10px 30px;
-            border-radius: 30px;
-            transition: background-color 0.3s ease;
-        }
-
-        .btn-add-exco:hover {
-            background-color: #0288d1;
-        }
-
-        .exco-card {
-            border: none;
-            border-radius: 15px;
-            background-color: #e8e9ef;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .exco-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-        }
-
-        .exco-image {
-            border-radius: 15px 15px 0 0;
-            object-fit: cover;
-        }
-
-        .card-body {
-            padding: 20px;
-        }
-
-        .modal-header {
-            background-color: #03a9f3;
-            color: white;
-            border-bottom: none;
-        }
-
-        .modal-body {
-            background-color: #f5f5f5;
-        }
-
-        .modal-footer {
-            border-top: none;
-        }
-
-        .btn-secondary {
-            background-color: rgba(153, 171, 180, 0.8);
-            color: #333;
-        }
-    </style>
 
 </head>
 
@@ -74,7 +19,7 @@
                         <a href="./dashboard.php"><i class="menu-icon fa fa-laptop"></i>Dashboard </a>
                     </li>
                     <li class="menu-title">Navigations</li>
-                    <li class="menu-item-has-children dropdown">
+                    <li class="menu-item-has-children dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-plus"></i>Make Addition</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="fa fa-clock-o"></i><a href="add-session.php">Session</a></li>
@@ -96,7 +41,7 @@
                             <li><i class="menu-icon fa fa-book"></i><a href="islamic-ebook.php">Islamic E-Books</a></li>
                         </ul>
                     </li>
-                    <li class="active">
+                    <li>
                         <a href="excos.php"> <i class="menu-icon fa fa-users"></i>Excos</a>
                     </li>
                     <li>
@@ -134,57 +79,75 @@
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="box-title">Excos</h4>
-                                <small>Add and manage all excos</small>
+                                <h4 class="box-title">Department</h4>
+                                <small>Add and manage all departments</small>
                             </div>
 
                             <div class="card-body">
                                 <!-- Content fall here -->
-                                <div class="text-center mb-4">
-                                    <button class="btn btn-add-exco" data-toggle="modal" data-target="#addExcoModal">
-                                        Add New Exco
-                                    </button>
-                                </div>
-
+                                <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
+                                    <div class="mb-3">
+                                        <label for="faculty" class="form-label">Faculty</label>
+                                        <select name="faculty" id="faculty" class="form-control" required>
+                                            <option value="">Select Faculty</option>
+                                            <option value="Natural and Applied Science">Natural and Applied Science</option>
+                                            <option value="Social Science">Social Science</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="department" class="form-label">Department Name</label>
+                                        <input type="text" class="form-control" id="department" placeholder="Eg: Computer Science" required>
+                                    </div>
+                                    <button type="submit" class="btn btn-info">Add Department</button>
+                                </form>
                                 <div class="row my-5">
                                     <div class="col-sm-4">
                                         <div class="page-header float-left">
                                             <div class="page-title">
-                                                <h1>All Excos</h1>
+                                                <h1>All Departments</h1>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-sm-8">
-                                        <form action="" method="POST" autocomplete="off">
-                                            <div class="mb-3">
-                                                <label for="session" class="form-label">Session</label>
-                                                <select name="session" id="session" class="form-control" required>
-                                                    <option value="">Select Session</option>
-                                                    <option value="2018/2029">2018/2019</option>
-                                                    <option value="2019/2020">2019/2020</option>
-                                                    <option value="2020/2021">2020/2021</option>
-                                                    <option value="2021/2022">2021/2022</option>
-                                                    <option value="2022/2023">2022/2023</option>
-                                                    <option value="2023/2024">2023/2024</option>
-                                                    <option value="2024/2025">2024/2025</option>
-                                                </select>
-                                            </div>
-                                            <button type="button" class="btn btn-success">Filter</button>
-                                        </form>
                                     </div>
                                 </div>
 
-                                <div class="row text-center">
-                                    <div class="col-md-4 mb-4">
-                                        <div class="card exco-card shadow-sm">
-                                            <img src="../../images/blog1.jpg" class="card-img-top exco-image" alt="Exco Image">
+                                <div class="row">
+
+                                    <div class="col-md-12">
+                                        <div class="card">
                                             <div class="card-body">
-                                                <h5 class="card-title">Exco Name</h5>
-                                                <p class="card-text">Position</p>
+                                                <table class="table table-striped table-bordered">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>Faculty</th>
+                                                            <th>Department</th>
+                                                            <th>Action</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>Social Science</td>
+                                                            <td>Sociology</td>
+                                                            <td>
+                                                                <button class="btn btn-warning" title="edit" data-toggle="modal" data-target="#editFaculty">
+                                                                    <i class="fa fa-edit" aria-hidden="true"></i>
+                                                                </button>
+                                                                <button class="btn btn-danger" title="delete">
+                                                                    <i class="fa fa-trash" aria-hidden="true"></i>
+                                                                </button>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
                                             </div>
                                         </div>
                                     </div>
+
+
                                 </div>
+
+
                             </div>
                         </div>
                     </div><!-- /# column -->
@@ -201,48 +164,31 @@
         <?php include_once "../includes/footer.php"; ?>
     </div>
     <!-- /#right-panel -->
-    <!-- Modal for Adding Exco -->
-    <div class="modal fade" id="addExcoModal" tabindex="-1" aria-labelledby="addExcoModalLabel" aria-hidden="true">
+
+    <!-- Modal for Editing PQ -->
+    <div class="modal fade" id="editFaculty" tabindex="-1" aria-labelledby="editFacultyModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header d-flex">
-                    <h5 class="modal-title" id="addExcoModalLabel">Add New Exco</h5>
+                    <h5 class="modal-title" id="editFacultyModalLabel">Edit Department</h5>
                     <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form id="addExcoForm">
+                    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
                         <div class="mb-3">
-                            <label for="session" class="form-label">Session</label>
-                            <select name="session" id="session" class="form-control" required>
-                                <option value="">Select Session</option>
-                                <option value="2018/2029">2018/2019</option>
-                                <option value="2019/2020">2019/2020</option>
-                                <option value="2020/2021">2020/2021</option>
-                                <option value="2021/2022">2021/2022</option>
-                                <option value="2022/2023">2022/2023</option>
-                                <option value="2023/2024">2023/2024</option>
-                                <option value="2024/2025">2024/2025</option>
+                            <label for="faculty" class="form-label">Faculty</label>
+                            <select name="faculty" id="faculty" class="form-control" required>
+                                <option value="">Select Faculty</option>
+                                <option value="Natural and Applied Science">Natural and Applied Science</option>
+                                <option value="Social Science" selected>Social Science</option>
                             </select>
                         </div>
                         <div class="mb-3">
-                            <label for="excoName" class="form-label">Exco Name</label>
-                            <input type="text" class="form-control" id="excoName" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="excoPosition" class="form-label">Position</label>
-                            <select name="excoPosition" id="excoPosition" class="form-control" required>
-                                <option value="">Select Exco Position</option>
-                                <option value="Central Ameer">Central Ameer</option>
-                                <option value="Secretary General">Secretary General</option>
-                                <option value="Central Ameera">Central Ameera</option>
-                            </select>
-                        </div>
-                        <div class="mb-3">
-                            <label for="excoImage" class="form-label">Image</label>
-                            <input type="file" class="form-control" id="excoImage" required>
+                            <label for="department" class="form-label">Department</label>
+                            <input type="text" class="form-control" id="department" value="Sociology" required>
                         </div>
                         <div class="modal-footer">
-                            <button type="submit" class="btn btn-add-exco">Add Exco</button>
+                            <button type="submit" class="btn btn-info">Update Department</button>
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                         </div>
                     </form>

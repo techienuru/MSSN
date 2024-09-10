@@ -7,7 +7,7 @@
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <style>
-        .btn-add-exco {
+        .btn-add-pq {
             background-color: #03a9f3;
             border: none;
             color: white;
@@ -17,7 +17,7 @@
             transition: background-color 0.3s ease;
         }
 
-        .btn-add-exco:hover {
+        .btn-add-pq:hover {
             background-color: #0288d1;
         }
 
@@ -89,14 +89,14 @@
                             <li><i class="fa fa-calendar"></i><a href="events.php">Events</a></li>
                         </ul>
                     </li>
-                    <li class="menu-item-has-children dropdown">
+                    <li class="menu-item-has-children dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-book"></i>Library & Resources</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="menu-icon fa fa-file"></i><a href="past-q&a.php">Past Q & A</a></li>
                             <li><i class="menu-icon fa fa-book"></i><a href="islamic-ebook.php">Islamic E-Books</a></li>
                         </ul>
                     </li>
-                    <li class="active">
+                    <li>
                         <a href="excos.php"> <i class="menu-icon fa fa-users"></i>Excos</a>
                     </li>
                     <li>
@@ -134,15 +134,15 @@
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="box-title">Excos</h4>
-                                <small>Add and manage all excos</small>
+                                <h4 class="box-title">Past Questions</h4>
+                                <small>Add and manage all past questions</small>
                             </div>
 
                             <div class="card-body">
                                 <!-- Content fall here -->
                                 <div class="text-center mb-4">
-                                    <button class="btn btn-add-exco" data-toggle="modal" data-target="#addExcoModal">
-                                        Add New Exco
+                                    <button class="btn btn-add-pq" data-toggle="modal" data-target="#addPqModal">
+                                        Add New PQ
                                     </button>
                                 </div>
 
@@ -150,41 +150,69 @@
                                     <div class="col-sm-4">
                                         <div class="page-header float-left">
                                             <div class="page-title">
-                                                <h1>All Excos</h1>
+                                                <h1>All Past Questions</h1>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-sm-8">
-                                        <form action="" method="POST" autocomplete="off">
-                                            <div class="mb-3">
-                                                <label for="session" class="form-label">Session</label>
-                                                <select name="session" id="session" class="form-control" required>
-                                                    <option value="">Select Session</option>
-                                                    <option value="2018/2029">2018/2019</option>
-                                                    <option value="2019/2020">2019/2020</option>
-                                                    <option value="2020/2021">2020/2021</option>
-                                                    <option value="2021/2022">2021/2022</option>
-                                                    <option value="2022/2023">2022/2023</option>
-                                                    <option value="2023/2024">2023/2024</option>
-                                                    <option value="2024/2025">2024/2025</option>
-                                                </select>
-                                            </div>
+                                        <form action="" class="d-flex justify-content-between" method="POST" autocomplete="off">
+                                            <select name="faculty" id="faculty" class="form-control" required>
+                                                <option value="">Select Session</option>
+                                                <option value="Natural and Applied Science">Natural and Applied Science</option>
+                                                <option value="Social Science">Social Science</option>
+                                            </select>
+                                            <select name="department" id="department" class="form-control" required>
+                                                <option value="">Select Department</option>
+                                                <option value="Computer Science">Computer Science</option>
+                                                <option value="Geology and Mining">Geology and Mining</option>
+                                            </select>
                                             <button type="button" class="btn btn-success">Filter</button>
                                         </form>
                                     </div>
                                 </div>
 
-                                <div class="row text-center">
-                                    <div class="col-md-4 mb-4">
-                                        <div class="card exco-card shadow-sm">
-                                            <img src="../../images/blog1.jpg" class="card-img-top exco-image" alt="Exco Image">
+                                <div class="row">
+
+                                    <div class="col-md-12">
+                                        <div class="card">
                                             <div class="card-body">
-                                                <h5 class="card-title">Exco Name</h5>
-                                                <p class="card-text">Position</p>
+                                                <table id="bootstrap-data-table" class="table table-striped table-bordered">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Faculty</th>
+                                                            <th>Department</th>
+                                                            <th>Level</th>
+                                                            <th>File</th>
+                                                            <th>Action</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Natural and Applied Science</td>
+                                                            <td>Computer Science</td>
+                                                            <td>400L</td>
+                                                            <td>
+                                                                <a href="../../images/logo.png" target="_blank" rel="noopener noreferrer">MTH112 - 21/22</a>
+                                                            </td>
+                                                            <td>
+                                                                <button class="btn btn-warning" title="edit" data-toggle="modal" data-target="#editPq">
+                                                                    <i class="fa fa-edit" aria-hidden="true"></i>
+                                                                </button>
+                                                                <button class="btn btn-danger" title="delete">
+                                                                    <i class="fa fa-trash" aria-hidden="true"></i>
+                                                                </button>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
                                             </div>
                                         </div>
                                     </div>
+
+
                                 </div>
+
+
                             </div>
                         </div>
                     </div><!-- /# column -->
@@ -201,48 +229,84 @@
         <?php include_once "../includes/footer.php"; ?>
     </div>
     <!-- /#right-panel -->
-    <!-- Modal for Adding Exco -->
-    <div class="modal fade" id="addExcoModal" tabindex="-1" aria-labelledby="addExcoModalLabel" aria-hidden="true">
+
+    <!-- Modal for Adding PQ -->
+    <div class="modal fade" id="addPqModal" tabindex="-1" aria-labelledby="addPqModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header d-flex">
-                    <h5 class="modal-title" id="addExcoModalLabel">Add New Exco</h5>
+                    <h5 class="modal-title" id="addPqModalLabel">Add New PQ</h5>
                     <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form id="addExcoForm">
+                    <form>
                         <div class="mb-3">
-                            <label for="session" class="form-label">Session</label>
-                            <select name="session" id="session" class="form-control" required>
-                                <option value="">Select Session</option>
-                                <option value="2018/2029">2018/2019</option>
-                                <option value="2019/2020">2019/2020</option>
-                                <option value="2020/2021">2020/2021</option>
-                                <option value="2021/2022">2021/2022</option>
-                                <option value="2022/2023">2022/2023</option>
-                                <option value="2023/2024">2023/2024</option>
-                                <option value="2024/2025">2024/2025</option>
+                            <label for="faculty" class="form-label">Faculty</label>
+                            <select name="faculty" id="faculty" class="form-control" required>
+                                <option value="">Select Faculty</option>
+                                <option value="Natural and Applied Science">Natural and Applied Science</option>
+                                <option value="Administration">Administration</option>
+                                <option value="Art">Art</option>
                             </select>
                         </div>
                         <div class="mb-3">
-                            <label for="excoName" class="form-label">Exco Name</label>
-                            <input type="text" class="form-control" id="excoName" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="excoPosition" class="form-label">Position</label>
-                            <select name="excoPosition" id="excoPosition" class="form-control" required>
-                                <option value="">Select Exco Position</option>
-                                <option value="Central Ameer">Central Ameer</option>
-                                <option value="Secretary General">Secretary General</option>
-                                <option value="Central Ameera">Central Ameera</option>
+                            <label for="department" class="form-label">Department</label>
+                            <select name="department" id="department" class="form-control" required>
+                                <option value="">Select Department</option>
+                                <option value="Computer Science">Computer Science</option>
+                                <option value="Microbiology">Microbiology</option>
                             </select>
                         </div>
                         <div class="mb-3">
-                            <label for="excoImage" class="form-label">Image</label>
-                            <input type="file" class="form-control" id="excoImage" required>
+                            <label for="pqLabel" class="form-label">PQ Label</label>
+                            <input type="text" class="form-control" id="pqLabel" placeholder="Ex: MTH112 - 2020/2021" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="pqFile" class="form-label">File</label>
+                            <input type="file" class="form-control" id="pqFile" accept="image/*" required>
                         </div>
                         <div class="modal-footer">
-                            <button type="submit" class="btn btn-add-exco">Add Exco</button>
+                            <button type="submit" class="btn btn-add-pq">Add PQ</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for Editing PQ -->
+    <div class="modal fade" id="editPq" tabindex="-1" aria-labelledby="editPqModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header d-flex">
+                    <h5 class="modal-title" id="editPqModalLabel">Edit PQ</h5>
+                    <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="faculty" class="form-label">Faculty</label>
+                            <select name="faculty" id="faculty" class="form-control" required>
+                                <option value="">Select Faculty</option>
+                                <option value="Natural and Applied Science">Natural and Applied Science</option>
+                                <option value="Administration">Administration</option>
+                                <option value="Art">Art</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="department" class="form-label">Department</label>
+                            <select name="department" id="department" class="form-control" required>
+                                <option value="">Select Department</option>
+                                <option value="Computer Science">Computer Science</option>
+                                <option value="Microbiology">Microbiology</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="pqLabel" class="form-label">PQ Label</label>
+                            <input type="text" class="form-control" id="pqLabel" value="MTH112 - 2020/2021" required>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-add-pq">Add PQ</button>
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                         </div>
                     </form>

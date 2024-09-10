@@ -18,19 +18,24 @@
                      </div>
                  </a>
                  <p class="mt-2 mb-0">MSSN NSUK Chapter.... hope of the ummah</p>
-                 <p class="m-0">mssn@gmail.com</p>
-                 <p>+234 8062 5856 24</p>
+                 <p class="m-0">
+                     Have a question about MSSN?
+                     <a
+                         href="https://api.whatsapp.com/send?phone=+2347056187419&text=Hello,+I+need+help+on+______"
+                         target="_blank"
+                         rel="noopener noreferrer">Contact us on WhatsApp</a>
+                 </p>
              </div>
              <div class="col">
                  <h5>Follow Us</h5>
                  <div class="d-flex gap-3">
-                     <a href="">
+                     <a href="https://www.facebook.com/profile.php?id=100090190283911&mibextid=ZbWKwL">
                          <i class="fa-brands fa-facebook"></i>
                      </a>
-                     <a href="">
+                     <!-- <a href="">
                          <i class="fa-brands fa-youtube"></i>
-                     </a>
-                     <a href="">
+                     </a> -->
+                     <a href="https://whatsapp.com/channel/0029VaZpxT7AzNc0uiFcA20a">
                          <i class="fa-brands fa-whatsapp"></i>
                      </a>
                  </div>

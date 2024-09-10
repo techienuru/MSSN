@@ -151,7 +151,7 @@
 
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="./images/developers/unknown.jpg" alt="Excos">
+                    <img src="./images/developers/nurudeen.jpeg" alt="Excos">
                 </div>
                 <div class="content">
                     <p>Ibrahim Nurudeen Shehu</p>
@@ -234,6 +234,11 @@
     <!-- Footer Start -->
     <?php include_once "./includes/pages/footer.php"; ?>
     <!-- Footer End -->
+
+    <!-- Scripts -->
+    <script src="./assets/js/script.js"></script>
+    <script src="./vendor/Bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
 </body>
 
 </html>
