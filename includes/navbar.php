@@ -1,7 +1,7 @@
 <!-- Start of Navbar -->
 <section class="navbar navbar-expand-md" id="navbar-section">
     <div class="container">
-        <a href="" class="navbar-brand d-flex gap-2">
+        <a href="https://mssnnsuk.com.ng/" class="navbar-brand d-flex gap-2">
             <img
                 src="./images/logo.png"
                 class="img-fluid d-inline"
