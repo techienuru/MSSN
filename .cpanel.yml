@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-     - export DEPLOYPATH=/home/mssnnsuk/public_html/
-    - /bin/cp -r * $DEPLOY_PATH
+    - export DEPLOYPATH=/home/mssnnsuk/public_html/
+    - /bin/cp -r * $DEPLOYPATH
