@@ -191,6 +191,10 @@
                             <input type="text" class="form-control" id="ebookLabel" placeholder="Ex: Jurisprudence of Islamic Nations" required>
                         </div>
                         <div class="mb-3">
+                            <label for="pqPreview" class="form-label">Image Preview</label>
+                            <input type="file" class="form-control" id="pqPreview" accept=".jpg, .png" required>
+                        </div>
+                        <div class="mb-3">
                             <label for="pqFile" class="form-label">File</label>
                             <input type="file" class="form-control" id="pqFile" accept=".jpg, .pdf, .png, .doc" required>
                         </div>
