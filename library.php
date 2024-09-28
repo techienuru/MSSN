@@ -1,3 +1,7 @@
+<?php
+echo $_SERVER["REMOTE_ADDR"];
+die();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
