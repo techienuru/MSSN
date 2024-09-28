@@ -1,5 +1,5 @@
 <?php
-echo $_SERVER["REMOTE_ADDR"];
+echo print_r($_SERVER);
 die();
 ?>
 <!DOCTYPE html>
