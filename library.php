@@ -1,6 +1,8 @@
 <?php
-echo print_r($_SERVER);
-die();
+$connect = mysqli_connect("136.243.111.26", "mssnnsuk_chapter", "mssnnsukchapter", "mssnnsuk_chapter");
+if (!$connect) {
+    die("Error in connection");
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
