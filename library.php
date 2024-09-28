@@ -1,5 +1,5 @@
 <?php
-$connect = mysqli_connect("136.243.111.26", "mssnnsuk_chapter", "mssnnsukchapter", "mssnnsuk_chapter");
+$connect = mysqli_connect("localhost", "mssnnsuk_chapter", "mssnnsukchapter", "mssnnsuk_chapter");
 if (!$connect) {
     die("Error in connection");
 }
