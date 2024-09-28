@@ -1,9 +1,3 @@
-<?php
-$connect = mysqli_connect("localhost", "mssnnsuk_chapter", "mssnnsukchapter", "mssnnsuk_chapter");
-if (!$connect) {
-    die("Error in connection");
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
 
