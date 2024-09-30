@@ -6,6 +6,20 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit6dd2a5a0c0c20597dad98dd3908ac568
 {
+    public static $prefixLengthsPsr4 = array (
+        'A' => 
+        array (
+            'App\\' => 4,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Models',
+        ),
+    );
+
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'DBFlex' => __DIR__ . '/..' . '/shuraih/dbflex/src/DBFlex.php',
@@ -14,6 +28,8 @@ class ComposerStaticInit6dd2a5a0c0c20597dad98dd3908ac568
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixLengthsPsr4 = ComposerStaticInit6dd2a5a0c0c20597dad98dd3908ac568::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit6dd2a5a0c0c20597dad98dd3908ac568::$prefixDirsPsr4;
             $loader->classMap = ComposerStaticInit6dd2a5a0c0c20597dad98dd3908ac568::$classMap;
 
         }, null, ClassLoader::class);

@@ -1,9 +1,9 @@
 <!-- Start of Navbar -->
 <section class="navbar navbar-expand-md" id="navbar-section">
     <div class="container">
-        <a href="https://mssnnsuk.com.ng/" class="navbar-brand d-flex gap-2">
+        <a href="/" class="navbar-brand d-flex gap-2">
             <img
-                src="./images/logo.png"
+                src="<?php echo $image_fol.'logo.png';?>"
                 class="img-fluid d-inline"
                 width="40"
                 height="30"
@@ -25,19 +25,19 @@
 
         <ul class="navbar-nav collapse navbar-collapse justify-content-end">
             <li class="nav-item">
-                <a href="./index.php" class="nav-link">Home</a>
+                <a href="/" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-                <a href="./about.php" class="nav-link">About</a>
+                <a href="/about" class="nav-link">About</a>
             </li>
             <li class="nav-item">
-                <a href="./library.php" class="nav-link">Library & Resources</a>
+                <a href="/library" class="nav-link">Library & Resources</a>
             </li>
             <li class="nav-item">
-                <a href="./excos.php" class="nav-link">Excos</a>
+                <a href="/excos" class="nav-link">Excos</a>
             </li>
             <li class="nav-item">
-                <a href="./blog.php" class="nav-link">Blog & Event</a>
+                <a href="/blog" class="nav-link">Blog & Event</a>
             </li>
         </ul>
     </div>
@@ -47,7 +47,7 @@
     <div class="d-flex justify-content-between align-items-center mb-5">
         <a href="" class="">
             <img
-                src="./images/logo.png"
+                src="<?php echo $image_fol.'logo.png';?>"
                 class="img-fluid"
                 width="40"
                 height="30"
@@ -57,19 +57,19 @@
     </div>
     <ul>
         <li>
-            <a href="./index.php">Home</a>
+            <a href="/">Home</a>
         </li>
         <li>
-            <a href="./about.php">About</a>
+            <a href="/about">About</a>
         </li>
         <li>
-            <a href="./library.php">Library & Resources</a>
+            <a href="/library">Library & Resources</a>
         </li>
         <li>
-            <a href="./excos.php">Our Excos</a>
+            <a href="/excos">Our Excos</a>
         </li>
         <li>
-            <a href="./blog.php">Blog & Event</a>
+            <a href="/blog">Blog & Event</a>
         </li>
     </ul>
 </div>

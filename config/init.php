@@ -11,13 +11,12 @@ $db = new DBFlex('mysql', $dbhost, $dbuser, $dbpass, $dbname);
 
 
 $controller = ROOT.'/Controller';
-$view = ROOT.'/View';
+$view = ROOT.'/Template';
 $AdminCont = $controller.'/Admin';
 $AdminTemplate = $view.'/Admin';
-$NurseCont = $controller.'/Nurse';
-$NurseView = $view.'/Nurse';
-$DoctorCont = $controller.'/Doctor';
-$DoctorView = $view.'/Doctor';
+$MainController = $controller.'/Main';
+$MainTemplate = $view.'/Main';
+$image_fol = PUBLIC_URL.'/images/';
 
 
 require_once __DIR__.'/functions.php';

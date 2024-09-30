@@ -5,7 +5,7 @@
              <div class="col-sm">
                  <a href="" class="navbar-brand d-flex gap-2">
                      <img
-                         src="./images/logo.png"
+                         src="<?php echo $image_fol.'logo.png';?>"
                          class="img-fluid d-inline"
                          width="40"
                          height="30"
@@ -57,3 +57,8 @@
          </p>
      </div>
  </footer>
+  <script src="./public/assets/js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>

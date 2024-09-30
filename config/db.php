@@ -1,6 +1,6 @@
 <?php
 
-$dbname = "hospital_management_system";
+$dbname = "mssn_nsuk";
 $dbuser = "root";
 $dbpass= "";
 $dbhost = "localhost";
