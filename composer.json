@@ -1,0 +1,5 @@
+{
+    "require": {
+        "shuraih/dbflex": "^1.3"
+    }
+}

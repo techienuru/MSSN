@@ -1,0 +1,17 @@
+{
+    "name": "shuraih/dbflex",
+    "description": "A simple and flexible Database Object Library",
+    "type": "library",
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-pdo": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT"
+}

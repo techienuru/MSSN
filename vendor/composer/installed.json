@@ -1,0 +1,44 @@
+{
+    "packages": [
+        {
+            "name": "shuraih/dbflex",
+            "version": "v1.3.0",
+            "version_normalized": "1.3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Shuraih-Usman/dbflex.git",
+                "reference": "49b2ae74debca7fa2cf09f7829c0bbf6ebcf0fec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Shuraih-Usman/dbflex/zipball/49b2ae74debca7fa2cf09f7829c0bbf6ebcf0fec",
+                "reference": "49b2ae74debca7fa2cf09f7829c0bbf6ebcf0fec",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=7.4"
+            },
+            "time": "2024-08-11T21:22:58+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A simple and flexible Database Object Library",
+            "support": {
+                "issues": "https://github.com/Shuraih-Usman/dbflex/issues",
+                "source": "https://github.com/Shuraih-Usman/dbflex/tree/v1.3.0"
+            },
+            "install-path": "../shuraih/dbflex"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

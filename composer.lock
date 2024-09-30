@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "604208c7ef7ebdcc580afeb71c04356a",
+    "packages": [
+        {
+            "name": "shuraih/dbflex",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Shuraih-Usman/dbflex.git",
+                "reference": "49b2ae74debca7fa2cf09f7829c0bbf6ebcf0fec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Shuraih-Usman/dbflex/zipball/49b2ae74debca7fa2cf09f7829c0bbf6ebcf0fec",
+                "reference": "49b2ae74debca7fa2cf09f7829c0bbf6ebcf0fec",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=7.4"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A simple and flexible Database Object Library",
+            "support": {
+                "issues": "https://github.com/Shuraih-Usman/dbflex/issues",
+                "source": "https://github.com/Shuraih-Usman/dbflex/tree/v1.3.0"
+            },
+            "time": "2024-08-11T21:22:58+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
