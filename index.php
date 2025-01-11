@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <!-- Including links -->
+  <!-- Including general links -->
   <?php include_once "./includes/head-links.php"; ?>
   <!-- Custom CSS -->
   <link rel="stylesheet" href="./assets/css/style.css" />

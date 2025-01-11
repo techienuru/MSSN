@@ -1,5 +1,0 @@
-server "localhost"
-Username "mssnnsuk_chapter"
-Password "mssnnsukchapter"
-DB "mssnnsuk_chapter"
-

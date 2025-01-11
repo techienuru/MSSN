@@ -52,8 +52,8 @@
                  </ul>
              </div>
          </div>
-         <p class="text-center mt-3">
-             &copy; MSSN NSUK Chapter 2024| All rights reserved.
+         <p class="text-center mt-3 pt-1">
+             &copy; MSSN NSUK Chapter 2024 - <?php echo date("Y"); ?> | All rights reserved.
          </p>
      </div>
  </footer>

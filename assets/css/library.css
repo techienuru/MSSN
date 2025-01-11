@@ -51,7 +51,6 @@ body {
   height: 100%;
   background-color: var(--hero-section-color);
   /* Overlay color */
-  z-index: 1;
   opacity: 0.66;
 }
 
