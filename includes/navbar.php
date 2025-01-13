@@ -45,7 +45,7 @@
 
 <div class="hamburger-menu px-5 py-3">
     <div class="d-flex justify-content-between align-items-center mb-5">
-        <a href="" class="">
+        <a href="../index.php" class="">
             <img
                 src="./images/logo.png"
                 class="img-fluid"

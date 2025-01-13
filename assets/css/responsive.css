@@ -5,28 +5,3 @@
   }
 }
 /* For Our Excos Image Overlay */
-@media all and (width <= 991px) {
-  #our-excos-section > .container > .row > div > div {
-    left: 20%;
-  }
-}
-@media all and (width <= 767px) {
-  #our-excos-section > .container > .row > div > div {
-    left: 37%;
-  }
-}
-@media all and (width <= 480px) {
-  #our-excos-section > .container > .row > div > div {
-    left: 33%;
-  }
-}
-@media all and (width <= 365px) {
-  #our-excos-section > .container > .row > div > div {
-    left: 30%;
-  }
-}
-@media all and (width <= 300px) {
-  #our-excos-section > .container > .row > div > div {
-    left: 27%;
-  }
-}

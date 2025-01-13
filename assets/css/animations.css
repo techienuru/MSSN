@@ -17,3 +17,13 @@
     transform: translateX(0px);
   }
 }
+
+/* Slides out hamburger menu's navigation */
+@keyframes hamburgerMenuSlideOut {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(+20px);
+  }
+}
