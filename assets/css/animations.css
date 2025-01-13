@@ -1,9 +1,19 @@
-/* Slide In for Navbar Link */
+/* Slides In Navbar Link */
 @keyframes slideIn {
   from {
     width: 0%;
   }
   to {
     width: 100%;
+  }
+}
+
+/* Slides in hamburger menu's navigation */
+@keyframes hamburgerMenuSlideIn {
+  from {
+    transform: translateX(+600px);
+  }
+  to {
+    transform: translateX(0px);
   }
 }

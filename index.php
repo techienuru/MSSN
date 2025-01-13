@@ -224,7 +224,7 @@
   <section class="mt-5 py-5" id="our-excos-section">
     <div class="container">
       <h2 class="mb-5 text-center">MSSN LEADERS & EXCOS</h2>
-      <div class="row mb-3 gap-1">
+      <div class="row mb-3 gap-1 p-5 p-sm-0">
         <div class="col-md-4 mb-5">
           <img
             src="./images/excos/ameer 2024.jpg"

@@ -85,7 +85,18 @@ body {
   width: 10px;
 } */
 .hamburger-menu {
+  display: initial; /* Hides navigations */
+}
+.hamburger-menu {
+  background-color: white;
   display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  animation: hamburgerMenuSlideIn 1s;
 }
 .hamburger-menu > ul {
   padding: 0px;

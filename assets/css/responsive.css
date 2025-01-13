@@ -1,29 +1,7 @@
 /* For Hamburger */
 @media all and (width <= 767px) {
-  body {
-    position: relative;
-  }
   .hamburger {
     display: block;
-  }
-
-  .hamburger-menu {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 3;
-    height: 100%;
-    background-color: white;
-    animation: hamburgerMenuSlideIn 1s;
-  }
-  @keyframes hamburgerMenuSlideIn {
-    from {
-      transform: translateX(+600px);
-    }
-    to {
-      transform: translateX(0px);
-    }
   }
 }
 /* For Our Excos Image Overlay */
