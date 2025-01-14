@@ -5,9 +5,7 @@
   <!-- Including general links -->
   <?php include_once "./includes/head-links.php"; ?>
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <link rel="stylesheet" href="./assets/css/responsive.css" />
-  <link rel="stylesheet" href="./assets/css/animations.css" />
+  <link rel="stylesheet" href="./assets/css/index.css" />
 </head>
 
 <body id="index-body">
@@ -68,7 +66,7 @@
       <h2 class="text-center mb-5">OUR BLOG & EVENTS</h2>
       <div class="row">
         <div class="col-lg-6 mb-3 mb-lg-0">
-          <div class="row mb-4">
+          <div class="row mb-4 event-box">
             <div class="col-sm-6 mb-4 m-sm-0 p-0">
               <img
                 src="./images/visit to orphanage home.jpg"

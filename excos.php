@@ -5,9 +5,6 @@
     <!-- Including links -->
     <?php include_once "./includes/head-links.php"; ?>
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/responsive.css" />
-    <link rel="stylesheet" href="./assets/css/animations.css" />
     <link rel="stylesheet" href="./assets/css/excos.css" />
 </head>
 

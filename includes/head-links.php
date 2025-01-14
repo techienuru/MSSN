@@ -22,3 +22,8 @@
     href="./images/logo.png"
     sizes=""
     type="image/x-icon" />
+<!-- Custom CSS -->
+<!-- CSS that applies to all pages(Navbar & Navigations) -->
+<link rel="stylesheet" href="./assets/css/general.css" />
+<link rel="stylesheet" href="./assets/css/responsive.css" />
+<link rel="stylesheet" href="./assets/css/animations.css" />

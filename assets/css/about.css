@@ -33,12 +33,8 @@ body {
 .about,
 .our-vision,
 .developers {
-  /* background-repeat: no-repeat;
-    background-size: 30%;
-    background-position: center; */
   background-color: rgba(248, 255, 251, 0.705);
   padding: 50px 70px;
-  /* margin: 10px; */
 }
 
 .about-info,
