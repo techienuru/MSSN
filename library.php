@@ -15,7 +15,7 @@
     <!-- End of Navbar -->
 
     <section id="Hero" class="hero-section">
-        <h1>LIBRARY & RESOURCES</h1>
+        <h5 class="py-3 py-sm-4 py-md-5 mb-3">LIBRARY & RESOURCES</h5>
     </section>
     <div class="wrapper">
 
