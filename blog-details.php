@@ -26,10 +26,36 @@
     <div class="container mt-5">
       <div class="row">
         <div class="col-md-6">
-          <img
-            src="./images/visit to prison.jpg"
-            alt=""
-            class="img-fluid w-100" />
+          <div id="blogs-carousel" class="carousel carousel-dark slide py-5 py-sm-0" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#blogs-carousel" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#blogs-carousel" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#blogs-carousel" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner p-sm-5">
+              <div class="carousel-item active">
+                <img
+                  src="./images/visit to prison.jpg"
+                  alt=""
+                  class="img-fluid w-100" />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/visit to orphanage home.jpg"
+                  alt=""
+                  class="img-fluid w-100" />
+              </div>
+              <div class="carousel-item">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2K3gYeSubko?si=CuaoKuzjzdiUY-Z_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </div>
+            <button class="carousel-control-prev" data-bs-target="#blogs-carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" data-bs-target="#blogs-carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
           <div class="d-flex flex-wrap justify-content-between pe-sm-5 py-3">
             <p>Category: Blog</p>
             <p>

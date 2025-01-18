@@ -1,10 +1,11 @@
 /* 
-    Colors => 60: #04B054, 30: #1FAC08
+    Colors => 60: #04B054, 30:  10:
     Optional => 1: #009e71, 2: #007380
 */
 
 body {
-  font-family: "Gupter", serif;
+  font-family: sans-serif; /* Fall back Font Family */
+  font-family: "Gupter", serif; /* Google Font */
 }
 /* Scroll bar */
 ::-webkit-scrollbar {
@@ -47,14 +48,6 @@ body {
 .navbar-nav > li > a:hover::before {
   display: block;
   animation: slideIn 0.5s;
-}
-.active::before {
-  content: "";
-  background-color: #009e71;
-  width: 100%;
-  height: 2px;
-  position: absolute;
-  bottom: 0;
 }
 
 .hamburger {

@@ -132,6 +132,9 @@
 #faqs-section > .container button > i {
   color: #04b054;
 }
+/* #faqs-section .accordion-header:focus {
+  z-index: -99 !important;
+} */
 /* End of Faqs Section */
 
 /* 

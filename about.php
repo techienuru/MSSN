@@ -13,7 +13,7 @@
     <?php include_once "./includes/navbar.php"; ?>
     <!-- End of Navbar -->
 
-    <div class="header">
+    <div class="header py-3 py-sm-4 py-md-5">
         <h5>ABOUT MSSN</h5>
     </div>
     <div class="about">

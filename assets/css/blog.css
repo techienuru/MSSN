@@ -1,0 +1,86 @@
+/* 
+    Hero section 
+                  */
+.header {
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(0, 185, 86, 0.705),
+      rgba(0, 185, 86, 0.705)
+    ),
+    url("../../images/New\ mssn\ mosque.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.header h5 {
+  color: #fff;
+  font-size: clamp(24px, 8vw, 2.5rem);
+  font-weight: bold;
+}
+
+/* 
+  Events section 
+                  */
+#event-section .carousel-indicators > button {
+  background-color: black;
+}
+#event-section .carousel-inner {
+  background-color: rgba(245, 238, 216, 0.35);
+}
+#event-section .carousel-item h3 {
+  color: #04b054;
+}
+#event-section .carousel-item i {
+  color: #04b054;
+}
+.details-btn {
+  background-color: transparent;
+  color: black;
+  border: 1px solid #04b054;
+  font-weight: bold;
+  position: relative;
+}
+.details-btn::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  background-color: #04b054;
+  width: 0%;
+  height: 100%;
+  transition: ease-in 0.2s;
+}
+.details-btn:hover {
+  color: white;
+}
+.details-btn:hover::before {
+  width: 100%;
+}
+
+/* 
+    Blog section 
+                  */
+#blog-section i {
+  color: #04b054;
+}
+.blog-item {
+  position: relative;
+  transition: transform ease-in-out 0.5s;
+}
+.blog-item:hover {
+  transform: translateY(-5px);
+}
+.blog-item > .card > img {
+  /* box-shadow: 4px 4px 1.5px #004682; */
+  height: 300px;
+}
+#blog-section .load-more-blog-btn {
+  box-shadow: none;
+  transition: transform ease 0.5s;
+}
+#blog-section .load-more-blog-btn:hover {
+  transform: translateY(-5px);
+}

@@ -1,7 +1,29 @@
+/* 
+    All pages - applies to all pages
+                                          */
+
 /* For Hamburger */
 @media all and (width <= 767px) {
   .hamburger {
     display: block;
   }
 }
-/* For Our Excos Image Overlay */
+
+/* 
+    Blog & event page
+                        */
+@media all and (width <= 767px) {
+  .blog-item {
+    border-left: 1px solid rgba(87, 78, 78, 0.541);
+  }
+  .blog-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #04b054;
+  }
+}

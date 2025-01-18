@@ -12,176 +12,401 @@
   <!-- Start of Navbar -->
   <?php include_once "./includes/navbar.php"; ?>
   <!-- End of Navbar -->
-
   <main>
-    <section class="header">
-      <h1>our blog & event</h1>
-    </section>
+    <!-- Start of Hero section -->
+    <div class="header py-3 py-sm-4 py-md-5 mb-3">
+      <h5>LATEST UPDATES & EVENTS</h5>
+    </div>
+    <!-- End of Hero section -->
 
-    <section class="body">
-      <div class="latestEvent">
-        <h3>latest event</h3>
-        <div class="event">
-          <div class="boder">
-            <div class="date">
-              <p>17</p>
-              <span>Aug</span>
-              <span>2024</span>
-            </div>
-            <div class="daawahEvent">
-              <p>SendForth Walimah/Inuagration day</p>
-
-              <div class="venueTime">
-                <div class="venue">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="green"
-                    class="bi bi-geo-alt"
-                    viewBox="0 0 16 16">
-                    <path
-                      d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
-                    <path
-                      d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
-                  </svg>
-                  <small>1,000 seater auditorium</small>
+    <!-- Start of Event section -->
+    <section id="event-section">
+      <div class="container mb-3">
+        <h2 class="mb-5 text-center">LATEST EVENTS</h2>
+        <div id="events-carousel" class="carousel slide carousel-fade py-5 py-sm-0">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#events-carousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#events-carousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#events-carousel" data-bs-slide-to="2"></button>
+          </div>
+          <div class="carousel-inner p-sm-5">
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div class="col-auto">
+                  <h3>8</h3>
+                  <p>Sep</p>
+                  <p>2024</p>
                 </div>
-                <div class="time">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="green"
-                    class="bi bi-clock"
-                    viewBox="0 0 16 16">
-                    <path
-                      d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
-                    <path
-                      d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
-                  </svg>
-                  <small>9:00am</small>
+                <div class="col-9">
+                  <p class="fw-bold">SendForth Walimah/Inuagration day</p>
+                  <div class="d-flex gap-3">
+                    <p>
+                      <i class="fa-solid fa-location-dot"></i>
+                      <span>1,000 seater auditorium</span>
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-clock"></i>
+                      <span>9:00am</span>
+                    </p>
+                  </div>
+                  <p>
+                    Join us for the Sendforth Walimah/Inauguration Day as we
+                    celebrate the achievements of our outgoing Excos and welcome
+                    the new leaders of MSSN NSUK Chapter.
+                  </p>
+                  <a href="./event-details.php" class="btn float-end details-btn">Event Details</a>
                 </div>
               </div>
-              <small>Join us for the Sendforth Walimah/Inauguration Day as we
-                celebrate the achievements of our outgoing Excos and welcome
-                the new leaders of MSSN NSUK Chapter.</small>
-              <br /><br />
-              <a href="./event-details.php">Event Details</a>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="recentEvent">
-        <h3>recent event</h3>
-        <div class="event">
-          <div class="boder">
-            <div class="date">
-              <p>30</p>
-              <span>Aug</span>
-              <span>2024</span>
-            </div>
-            <div class="daawahEvent">
-              <p>Orientation for the newly admitted students</p>
-
-              <div class="venueTime">
-                <div class="venue">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="green"
-                    class="bi bi-geo-alt"
-                    viewBox="0 0 16 16">
-                    <path
-                      d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
-                    <path
-                      d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
-                  </svg>
-                  <small>Respective Faculty's Congress Venue</small>
+            <div class="carousel-item">
+              <div class="row mb-5 justify-content-center">
+                <div class="col-auto">
+                  <h3>30</h3>
+                  <p>Aug</p>
+                  <p>2024</p>
                 </div>
-                <div class="time">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="green"
-                    class="bi bi-clock"
-                    viewBox="0 0 16 16">
-                    <path
-                      d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
-                    <path
-                      d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
-                  </svg>
-                  <small>9:00am</small>
+                <div class="col-9">
+                  <p class="fw-bold">
+                    Orientation for the newly admitted students
+                  </p>
+                  <div class="d-flex gap-3">
+                    <p>
+                      <i class="fa-solid fa-location-dot"></i>
+                      <span>Respective Faculty's Congress Venue</span>
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-clock"></i>
+                      <span>9:00am</span>
+                    </p>
+                  </div>
+                  <p>
+                    Join us as each Faculty will host an orientation program
+                    for newly admitted students. The event will offer valuable
+                    guidance on academic life, campus culture, and introduce
+                    students to the supportive MSSN community.
+                  </p>
+                  <a href="./event-details.php" class="btn float-end details-btn">Event Details</a>
                 </div>
               </div>
-              <small>The MSSN NSUK Chapter recently hosted an orientation program
-                for newly admitted students. The event offered valuable
-                guidance on academic life, campus culture, and introduced
-                students to the supportive MSSN community.</small>
-              <br /><br />
-              <a href="./event-details.php">Event Details</a>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="blogSection">
-        <p>blog section</p>
-
-        <div class="section">
-          <div class="section-img">
-            <img src="./images/visit to orphanage home.jpg" alt="" />
-          </div>
-          <div class="section-text">
-            <h4>
-              The NSUK Muslim ummah visits the graveyard, orphanage home and
-              prisoners
-            </h4>
-            <div class="date-name">
-              <div class="section-date">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-calendar2-week-fill"
-                  viewBox="0 0 16 16">
-                  <path
-                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5m9.954 3H2.545c-.3 0-.545.224-.545.5v1c0 .276.244.5.545.5h10.91c.3 0 .545-.224.545-.5v-1c0-.276-.244-.5-.546-.5M8.5 7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zM3 10.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5m3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5z" />
-                </svg>
-                <small>27-09-2024</small>
-              </div>
-              <div class="section-name">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="green"
-                  class="bi bi-clock"
-                  viewBox="0 0 16 16">
-                  <path
-                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
-                  <path
-                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
-                </svg>
-                <small>9:00am</small>
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-auto">
+                  <h3>13</h3>
+                  <p>Jan</p>
+                  <p>2025</p>
+                </div>
+                <div class="col-9">
+                  <p class="fw-bold">First weekly congress of the session</p>
+                  <div class="d-flex gap-3">
+                    <p>
+                      <i class="fa-solid fa-location-dot"></i>
+                      <span>1,000 seater auditorium</span>
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-clock"></i>
+                      <span>9:00am</span>
+                    </p>
+                  </div>
+                  <p>
+                    Join us for the Sendforth Walimah/Inauguration Day as we
+                    celebrate the achievements of our outgoing Excos and welcome
+                    the new leaders of MSSN NSUK Chapter.
+                  </p>
+                  <a href="./event-details.php" class="btn float-end details-btn">Event Details</a>
+                </div>
               </div>
             </div>
-            <div class="text">
-              <small>
-                As Part of the Da'awah week, the MSSN NSUK excos and the
-                students ummah paid a visit to the graveyard, orphanage home
-                and prisoners
-              </small>
-            </div>
           </div>
+          <button class="carousel-control-prev" data-bs-target="#events-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark"></span>
+          </button>
+          <button class="carousel-control-next" data-bs-target="#events-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark"></span>
+          </button>
         </div>
       </div>
     </section>
+    <!-- End of Event section -->
+    <!-- Start of Blog section -->
+    <section id="blog-section">
+      <div class="container mb-3">
+        <h2 class="mb-5 text-center">BLOG SECTION</h2>
+        <div class="row justify-content-between pb-3 pb-md-0">
+          <div class="col-md-4 mx-3 mx-sm-0 blog-item">
+            <div class="card shadow-sm h-100 my-3 my-md-0">
+              <img
+                src="./images/visit to orphanage home.jpg"
+                alt="first blog pix"
+                class="img-fluid w-100 object-fit-cover" />
+              <div class="card-body">
+                <p class="fw-bold">
+                  The NSUK Muslim ummah visits the graveyard, orphanage home and
+                  prisoners
+                </p>
+                <div class="d-flex gap-3">
+                  <p>
+                    <i class="fa-regular fa-calendar"></i>
+                    Wed, Aug 27 2024
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-clock"></i>
+                    10:00 am
+                  </p>
+                </div>
+                <p>
+                  As Part of the Da'awah week, the MSSN NSUK excos and the
+                  students ummah paid a visit to the graveyard, orphanage home
+                  and prisoners...
+                </p>
+                <a href="./blog-details.php" class="btn-link float-end">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mx-3 mx-sm-0 blog-item">
+            <div class="card shadow-sm h-100 my-3 my-md-0">
+              <img
+                src="./images/New mssn mosque.jpg"
+                alt="first blog pix"
+                class="img-fluid w-100 object-fit-cover" />
+              <div class="card-body">
+                <p class="fw-bold">
+                  MSSN NSUK Commence the re-construction of Old central Mosque
+                </p>
+                <div class="d-flex gap-3">
+                  <p>
+                    <i class="fa-regular fa-calendar"></i>
+                    Thur, Sep 9 2024
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-clock"></i>
+                    10:00 am
+                  </p>
+                </div>
+                <p>
+                  The old central Mosque has been demolished and re-construction is now underway....
+                </p>
+                <a href="./blog-details.php" class="btn-link float-end">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mx-3 mx-sm-0 blog-item">
+            <div class="card shadow-sm h-100 my-3 my-md-0">
+              <img
+                src="./images/Upcoming Walimah.jpg"
+                alt="first blog pix"
+                class="img-fluid w-100 object-fit-cover" />
+              <div class="card-body">
+                <p class="fw-bold">
+                  Orientation for the newly admitted students
+                </p>
+                <div class="d-flex gap-3">
+                  <p>
+                    <i class="fa-regular fa-calendar"></i>
+                    Sat, Aug 30 2024
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-clock"></i>
+                    9:00 am
+                  </p>
+                </div>
+                <p>
+                  The MSSN NSUK Chapter recently hosted an orientation program for newly admitted students. The event offered valuable guidance on academic life, campus culture, and introduced students to the supportive MSSN community....
+                </p>
+                <a href="./blog-details.php" class="btn-link float-end">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-between pt-3 d-none js-more-blog" data-array-index="0">
+          <div class="col-md-4 mx-3 mx-sm-0 blog-item">
+            <div class="card shadow-sm h-100 my-3 my-md-0">
+              <img
+                src="./images/visit to orphanage home.jpg"
+                alt="first blog pix"
+                class="img-fluid w-100 object-fit-cover" />
+              <div class="card-body">
+                <p class="fw-bold">
+                  The NSUK Muslim ummah visits the graveyard, orphanage home and
+                  prisoners
+                </p>
+                <div class="d-flex gap-3">
+                  <p>
+                    <i class="fa-regular fa-calendar"></i>
+                    Wed, Aug 27 2024
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-clock"></i>
+                    10:00 am
+                  </p>
+                </div>
+                <p>
+                  As Part of the Da'awah week, the MSSN NSUK excos and the
+                  students ummah paid a visit to the graveyard, orphanage home
+                  and prisoners...
+                </p>
+                <a href="./blog-details.php" class="btn-link float-end">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mx-3 mx-sm-0 blog-item">
+            <div class="card shadow-sm h-100 my-3 my-md-0">
+              <img
+                src="./images/New mssn mosque.jpg"
+                alt="first blog pix"
+                class="img-fluid w-100 object-fit-cover" />
+              <div class="card-body">
+                <p class="fw-bold">
+                  MSSN NSUK Commence the re-construction of Old central Mosque
+                </p>
+                <div class="d-flex gap-3">
+                  <p>
+                    <i class="fa-regular fa-calendar"></i>
+                    Thur, Sep 9 2024
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-clock"></i>
+                    10:00 am
+                  </p>
+                </div>
+                <p>
+                  The old central Mosque has been demolished and re-construction is now underway....
+                </p>
+                <a href="./blog-details.php" class="btn-link float-end">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mx-3 mx-sm-0 blog-item">
+            <div class="card shadow-sm h-100 my-3 my-md-0">
+              <img
+                src="./images/visit to orphanage home.jpg"
+                alt="first blog pix"
+                class="img-fluid w-100 object-fit-cover" />
+              <div class="card-body">
+                <p class="fw-bold">
+                  The NSUK Muslim ummah visits the graveyard, orphanage home and
+                  prisoners
+                </p>
+                <div class="d-flex gap-3">
+                  <p>
+                    <i class="fa-regular fa-calendar"></i>
+                    Wed, Aug 27 2024
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-clock"></i>
+                    10:00 am
+                  </p>
+                </div>
+                <p>
+                  As Part of the Da'awah week, the MSSN NSUK excos and the
+                  students ummah paid a visit to the graveyard, orphanage home
+                  and prisoners...
+                </p>
+                <a href="./blog-details.php" class="btn-link float-end">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-between pt-3 d-none js-more-blog" data-array-index="1">
+          <div class="col-md-4 mx-3 mx-sm-0 blog-item">
+            <div class="card shadow-sm h-100 my-3 my-md-0">
+              <img
+                src="./images/visit to orphanage home.jpg"
+                alt="first blog pix"
+                class="img-fluid w-100 object-fit-cover" />
+              <div class="card-body">
+                <p class="fw-bold">
+                  The NSUK Muslim ummah visits the graveyard, orphanage home and
+                  prisoners
+                </p>
+                <div class="d-flex gap-3">
+                  <p>
+                    <i class="fa-regular fa-calendar"></i>
+                    Wed, Aug 27 2024
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-clock"></i>
+                    10:00 am
+                  </p>
+                </div>
+                <p>
+                  As Part of the Da'awah week, the MSSN NSUK excos and the
+                  students ummah paid a visit to the graveyard, orphanage home
+                  and prisoners...
+                </p>
+                <a href="./blog-details.php" class="btn-link float-end">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mx-3 mx-sm-0 blog-item">
+            <div class="card shadow-sm h-100 my-3 my-md-0">
+              <img
+                src="./images/New mssn mosque.jpg"
+                alt="first blog pix"
+                class="img-fluid w-100 object-fit-cover" />
+              <div class="card-body">
+                <p class="fw-bold">
+                  MSSN NSUK Commence the re-construction of Old central Mosque
+                </p>
+                <div class="d-flex gap-3">
+                  <p>
+                    <i class="fa-regular fa-calendar"></i>
+                    Thur, Sep 9 2024
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-clock"></i>
+                    10:00 am
+                  </p>
+                </div>
+                <p>
+                  The old central Mosque has been demolished and re-construction is now underway....
+                </p>
+                <a href="./blog-details.php" class="btn-link float-end">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mx-3 mx-sm-0 blog-item">
+            <div class="card shadow-sm h-100 my-3 my-md-0">
+              <img
+                src="./images/visit to orphanage home.jpg"
+                alt="first blog pix"
+                class="img-fluid w-100 object-fit-cover" />
+              <div class="card-body">
+                <p class="fw-bold">
+                  The NSUK Muslim ummah visits the graveyard, orphanage home and
+                  prisoners
+                </p>
+                <div class="d-flex gap-3">
+                  <p>
+                    <i class="fa-regular fa-calendar"></i>
+                    Wed, Aug 27 2024
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-clock"></i>
+                    10:00 am
+                  </p>
+                </div>
+                <p>
+                  As Part of the Da'awah week, the MSSN NSUK excos and the
+                  students ummah paid a visit to the graveyard, orphanage home
+                  and prisoners...
+                </p>
+                <a href="./blog-details.php" class="btn-link float-end">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="d-flex justify-content-center my-3">
+          <button type="button" class="btn btn-success load-more-blog-btn js-load-more-blog-btn">Load More</button>
+        </div>
+      </div>
+    </section>
+    <!-- End of Blog section -->
   </main>
+
   <!-- Footer Start -->
   <?php include_once "./includes/footer.php"; ?>
   <!-- Footer End -->
