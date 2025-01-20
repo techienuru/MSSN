@@ -5,8 +5,6 @@
 }
 
 body {
-  line-height: 1.6;
-  font-size: 16px;
   background-color: rgba(248, 255, 251, 0.705);
 }
 
@@ -30,8 +28,7 @@ body {
 }
 
 .about,
-.our-vision,
-.developers {
+.our-vision {
   background-color: rgba(248, 255, 251, 0.705);
   padding: 50px 70px;
 }
@@ -64,49 +61,44 @@ body {
   margin: 20px 0;
   font-weight: bold;
 }
-
-.mssn-excos {
-  display: grid;
-  grid-template-columns: 250px 250px 250px;
-  gap: 30px;
-  margin: 20px;
-  justify-items: center;
-  align-items: center;
-  justify-content: center;
+.developers {
+  background-color: rgba(248, 255, 251, 0.705);
+  padding: 50px 70px;
 }
-
-.excos1 {
+.dev-inner {
+  height: fit-content;
+  padding: 0px;
   position: relative;
-  width: 100%;
-  max-width: 300px;
-  text-align: center;
 }
-
-.excos1 img {
+.dev-inner img {
   width: 100%;
-  height: auto;
+  height: 350px;
+  object-fit: fill;
   box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.472);
   border-radius: 10px;
 }
-
-.content {
+.dev-overlay-wrapper {
   position: absolute;
-  bottom: 1px;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.dev-overlay-content {
   background-color: #f4f4f4;
   border-radius: 10px;
-  width: 80%;
-  height: 12%;
-  padding: 5px;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.609);
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: -15px;
 }
-
-.content p {
-  margin: 0;
-  font-size: 1em;
+.dev-overlay-content p {
+  margin-bottom: 0px;
 }
-
 /* Justify the text in the paragraphs */
 .about .about-info p,
 .our-vision .vision-info p,
@@ -115,12 +107,7 @@ body {
 }
 
 @media (max-width: 868px) {
-  .header h5 {
-    font-size: 2em;
-  }
-
-  .o-vs-header p,
-  .dev-header p {
+  .o-vs-header p {
     font-size: 1.5em;
   }
 
@@ -138,36 +125,27 @@ body {
   .developers {
     padding: 20px 30px;
   }
-
-  .mssn-excos {
-    grid-template-columns: 240px 240px;
-  }
 }
 
 @media (max-width: 580px) {
-  .header {
-    padding: 40px 0;
-  }
-
-  .header h5 {
-    font-size: 1.5em;
-  }
-
-  .content p {
-    font-size: 0.9em;
-  }
-
   .about-info img {
     max-width: 80px;
   }
 
   .about,
-  .our-vision,
-  .developers {
+  .our-vision {
     padding: 30px 20px;
   }
+}
 
-  .mssn-excos {
-    grid-template-columns: 350px;
+@media (max-width: 575px) {
+  .developers {
+    padding: 30px 22vw;
+  }
+}
+
+@media (max-width: 472px) {
+  .developers {
+    padding: 30px 15vw;
   }
 }

@@ -85,31 +85,32 @@
         <hr>
     </div>
     <div class="our-vision">
-
         <div class="o-vs-header">
-
             <p>Our Mission</p>
         </div>
 
         <div class="info">
             <div class="vision-info">
-                <p>"The MSSN will work relentlessly towards the establishment of a society that fosters all round human
+                <p>
+                    "The MSSN will work relentlessly towards the establishment of a society that fosters all round human
                     development. To achieve this, MSSN will continuously strive towards strengthening the Ummah
                     educationally, economically, spiritually and politically through a wide spectrum of activities in
                     schools and the larger society in partnership with likeminded organizations. To succeed, MSSN must
-                    ensure that its members are God fearing, knowledgeable, united and with superior moral values”</p>
+                    ensure that its members are God fearing, knowledgeable, united and with superior moral values”
+                </p>
             </div><br>
         </div>
 
         <div class="o-vs-header">
-
             <p>Our Vision</p>
         </div>
 
         <div class="info">
             <div class="vision-info">
-                <p>To establish an Islamic Ummah governed by the principles and rules of the Shariah within the next
-                    fifty years” MUSLIM STUDENTS’ SOCIETY OF NIGERIA MSSN </p>
+                <p>
+                    To establish an Islamic Ummah governed by the principles and rules of the Shariah within the next
+                    fifty years” MUSLIM STUDENTS’ SOCIETY OF NIGERIA MSSN
+                </p>
             </div><br>
         </div>
     </div>
@@ -118,88 +119,79 @@
         <div class="dev-header">
             <p>Developers Behind MSSN Website.</p>
         </div>
-        <div class="mssn-excos">
-
-
-            <div class="excos1">
-                <div class="Ameer">
-                    <img src="./images/developers/nurudeen.jpeg" alt="Excos">
-                </div>
-                <div class="content">
-                    <p>Ibrahim Nurudeen Shehu</p>
+        <div class="row gap-4 justify-content-center dev-body">
+            <div class="col-sm-5 col-md-3 dev-inner">
+                <img class="img-fluid" src="./images/developers/nurudeen.jpeg" alt="MSSN Developers">
+                <div class="dev-overlay-wrapper">
+                    <div class="dev-overlay-content">
+                        <p>Ibrahim Nurudeen Shehu</p>
+                    </div>
                 </div>
             </div>
-
-            <div class="excos1">
-                <div class="Ameer">
-                    <img src="./images/developers/chief.JPG" alt="Excos">
-                </div>
-                <div class="content">
-                    <p>Abubakar Yahaya</p>
-                </div>
-            </div>
-
-            <div class="excos1">
-                <div class="Ameer">
-                    <img src="./images/developers/unknown.jpg" alt="Excos">
-                </div>
-                <div class="content">
-                    <p>Husseini Muh'd Aminu</p>
+            <div class="col-sm-5 col-md-3 dev-inner">
+                <img class="img-fluid object-fit-cover" src="./images/developers/chief.JPG" alt="MSSN Developers">
+                <div class="dev-overlay-wrapper">
+                    <div class="dev-overlay-content">
+                        <p>Abubakar Yahaya</p>
+                    </div>
                 </div>
             </div>
-
-            <div class="excos1">
-                <div class="Ameer">
-                    <img src="./images/developers/umar (2).jpg" alt="Excos">
-                </div>
-                <div class="content">
-                    <p>Jibril Umar Faruk</p>
-                </div>
-            </div>
-
-            <div class="excos1">
-                <div class="Ameer">
-                    <img src="./images/developers/unknown.jpg" alt="Excos">
-                </div>
-                <div class="content">
-                    <p>Abdulrahman Umar</p>
+            <div class="col-sm-5 col-md-3 dev-inner">
+                <img class="img-fluid object-fit-cover" src="./images/developers/unknown.jpg" alt="MSSN Developers">
+                <div class="dev-overlay-wrapper">
+                    <div class="dev-overlay-content">
+                        <p>Husseini Muh'd Aminu</p>
+                    </div>
                 </div>
             </div>
-
-            <div class="excos1">
-                <div class="Ameer">
-                    <img src="./images/developers/shuraihu.jpg" alt="Excos">
-                </div>
-                <div class="content">
-                    <p>Shuraihu Usman</p>
-                </div>
-            </div>
-
-            <div class="excos1">
-                <div class="Ameer">
-                    <img src="./images/developers/unknown.jpg" alt="Excos">
-                </div>
-                <div class="content">
-                    <p>Sadeeq Umar Abubakar</p>
+            <div class="col-sm-5 col-md-3 dev-inner">
+                <img class="img-fluid object-fit-cover" src="./images/developers/umar (2).jpg" alt="MSSN Developers">
+                <div class="dev-overlay-wrapper">
+                    <div class="dev-overlay-content">
+                        <p>Jibril Umar Faruk</p>
+                    </div>
                 </div>
             </div>
-            <div class="excos1">
-                <div class="Ameer">
-                    <img src="./images/developers/faisal.jpg" alt="Excos">
-                </div>
-                <div class="content">
-                    <p>Kabiru Muh'd Faisal</p>
-                </div>
-            </div>
-            <div class="excos1">
-                <div class="Ameer">
-                    <img src="./images/developers/unknown.jpg" alt="Excos">
-                </div>
-                <div class="content">
-                    <p>Dawood Ayatullah</p>
+            <div class="col-sm-5 col-md-3 dev-inner">
+                <img class="img-fluid object-fit-cover" src="./images/developers/unknown.jpg" alt="MSSN Developers">
+                <div class="dev-overlay-wrapper">
+                    <div class="dev-overlay-content">
+                        <p>Abdulrahman Umar</p>
+                    </div>
                 </div>
             </div>
-
+            <div class="col-sm-5 col-md-3 dev-inner">
+                <img class="img-fluid object-fit-cover" src="./images/developers/shuraihu.jpg" alt="MSSN Developers">
+                <div class="dev-overlay-wrapper">
+                    <div class="dev-overlay-content">
+                        <p>Shuraihu Usman</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5 col-md-3 dev-inner">
+                <img class="img-fluid object-fit-cover" src="./images/developers/unknown.jpg" alt="MSSN Developers">
+                <div class="dev-overlay-wrapper">
+                    <div class="dev-overlay-content">
+                        <p>Sadeeq Umar Abubakar</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5 col-md-3 dev-inner">
+                <img class="img-fluid object-fit-cover" src="./images/developers/faisal.jpg" alt="MSSN Developers">
+                <div class="dev-overlay-wrapper">
+                    <div class="dev-overlay-content">
+                        <p>Kabiru Muh'd Faisal</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5 col-md-3 dev-inner">
+                <img class="img-fluid object-fit-cover" src="./images/developers/unknown.jpg" alt="MSSN Developers">
+                <div class="dev-overlay-wrapper">
+                    <div class="dev-overlay-content">
+                        <p>Dawood Ayatullah</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     </div>
