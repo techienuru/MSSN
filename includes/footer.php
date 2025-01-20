@@ -48,7 +48,7 @@
                      <a href="./library.php" class="nav-link">Library & Resources</a>
                      <a href="./excos.php" class="nav-link">Excos</a>
                      <a href="./blog.php" class="nav-link">Blog & Event</a>
-                     <a href="#" class="nav-link">#To top</a>
+                     <a href="#" class="nav-link">Ask & Learn</a>
                  </ul>
              </div>
          </div>
@@ -57,3 +57,8 @@
          </p>
      </div>
  </footer>
+ <div class="to-top" title="Back to top">
+     <a href="#">
+         <i class="fas fa-angle-up"></i>
+     </a>
+ </div>

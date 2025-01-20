@@ -106,3 +106,14 @@ footer > .container > p {
   border-top: 2px solid rgba(0, 0, 0, 0.555);
 }
 /* End of Footer Section */
+
+/* Start of to top button */
+.to-top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 9px;
+}
+/* End of to top button */
