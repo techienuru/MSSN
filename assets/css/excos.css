@@ -4,21 +4,8 @@
   font-family: Arial, Helvetica, sans-serif;
   font-family: "Gupter", serif;
 }
-/* Scroll bar */
-::-webkit-scrollbar {
-  background-color: #04b054;
-  width: 15px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: white;
-  width: 30px;
-  border-radius: 10px;
-}
-
 .header {
   width: 100%;
-  padding: 70px 0px;
   background-image: linear-gradient(
       rgba(0, 185, 86, 0.705),
       rgba(0, 185, 86, 0.705)
@@ -27,11 +14,11 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  text-align: center;
 }
 .header h5 {
-  text-align: center;
   color: #fff;
-  font-size: 4em;
+  font-size: clamp(24px, 8vw, 2.5rem);
   font-weight: bold;
 }
 
@@ -43,7 +30,7 @@
   margin-bottom: 50px;
 }
 .mssn-excos > h2 {
-  font-size: 2em;
+  font-size: clamp(24px, 8vw, 2.5rem);
   text-align: center;
   margin: 50px 0px 20px 0px;
 }
@@ -87,44 +74,13 @@
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.609);
   padding: 15px;
 }
-
+.mssn-excos .excos .excos1 .content > p {
+  margin: 0px;
+}
 .mssn-excos .excos .excos1 .content > p:first-child {
   border-bottom: 2px solid rgba(0, 0, 0, 0.459);
   padding: 0px 0px 1px 0px;
   margin-bottom: 2px;
-}
-
-/* Responsiveness for Header */
-@media (max-width: 1113px) {
-  .header h5 {
-    font-size: 3em;
-  }
-}
-@media (max-width: 694px) {
-  .header h5 {
-    font-size: 2em;
-  }
-}
-@media (max-width: 455px) {
-  .header h5 {
-    font-size: 1.5em;
-  }
-}
-@media (max-width: 361px) {
-  .header {
-    width: 100vw;
-    padding: 40px 0px;
-    height: fit-content;
-  }
-  .header h5 {
-    font-size: 1.2em;
-  }
-}
-
-@media (max-width: 288px) {
-  .header h5 {
-    font-size: 1em;
-  }
 }
 
 /* Responsiveness for Excos Images */

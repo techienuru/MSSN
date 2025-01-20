@@ -125,70 +125,79 @@
                 <div class="dev-overlay-wrapper">
                     <div class="dev-overlay-content">
                         <p>Ibrahim Nurudeen Shehu</p>
+                        <i>Team Lead</i>
                     </div>
                 </div>
             </div>
             <div class="col-sm-5 col-md-3 dev-inner">
-                <img class="img-fluid object-fit-cover" src="./images/developers/chief.JPG" alt="MSSN Developers">
+                <img class="img-fluid" src="./images/developers/chief.JPG" alt="MSSN Developers">
                 <div class="dev-overlay-wrapper">
                     <div class="dev-overlay-content">
                         <p>Abubakar Yahaya</p>
+                        <i>Frontend Developer</i>
                     </div>
                 </div>
             </div>
             <div class="col-sm-5 col-md-3 dev-inner">
-                <img class="img-fluid object-fit-cover" src="./images/developers/unknown.jpg" alt="MSSN Developers">
+                <img class="img-fluid" src="./images/developers/muhammad.jpg" alt="MSSN Developers">
                 <div class="dev-overlay-wrapper">
                     <div class="dev-overlay-content">
                         <p>Husseini Muh'd Aminu</p>
+                        <i>Frontend Developer</i>
                     </div>
                 </div>
             </div>
             <div class="col-sm-5 col-md-3 dev-inner">
-                <img class="img-fluid object-fit-cover" src="./images/developers/umar (2).jpg" alt="MSSN Developers">
+                <img class="img-fluid" src="./images/developers/umar.jpg" alt="MSSN Developers">
                 <div class="dev-overlay-wrapper">
                     <div class="dev-overlay-content">
                         <p>Jibril Umar Faruk</p>
+                        <i>UI Designer</i>
                     </div>
                 </div>
             </div>
             <div class="col-sm-5 col-md-3 dev-inner">
-                <img class="img-fluid object-fit-cover" src="./images/developers/unknown.jpg" alt="MSSN Developers">
+                <img class="img-fluid" src="./images/developers/unknown.jpg" alt="MSSN Developers">
                 <div class="dev-overlay-wrapper">
                     <div class="dev-overlay-content">
                         <p>Abdulrahman Umar</p>
+                        <i>Frontend Developer</i>
                     </div>
                 </div>
             </div>
             <div class="col-sm-5 col-md-3 dev-inner">
-                <img class="img-fluid object-fit-cover" src="./images/developers/shuraihu.jpg" alt="MSSN Developers">
+                <img class="img-fluid" src="./images/developers/shuraihu.jpg" alt="MSSN Developers">
                 <div class="dev-overlay-wrapper">
                     <div class="dev-overlay-content">
                         <p>Shuraihu Usman</p>
+                        <i>Backend Developer</i>
                     </div>
                 </div>
             </div>
             <div class="col-sm-5 col-md-3 dev-inner">
-                <img class="img-fluid object-fit-cover" src="./images/developers/unknown.jpg" alt="MSSN Developers">
+                <img class="img-fluid" src="./images/developers/unknown.jpg" alt="MSSN Developers">
                 <div class="dev-overlay-wrapper">
                     <div class="dev-overlay-content">
                         <p>Sadeeq Umar Abubakar</p>
+                        <i>Frontend Developer</i>
                     </div>
                 </div>
             </div>
             <div class="col-sm-5 col-md-3 dev-inner">
-                <img class="img-fluid object-fit-cover" src="./images/developers/faisal.jpg" alt="MSSN Developers">
+                <img class="img-fluid" src="./images/developers/faisal.jpg" alt="MSSN Developers">
                 <div class="dev-overlay-wrapper">
                     <div class="dev-overlay-content">
                         <p>Kabiru Muh'd Faisal</p>
+                        <i>Backend Developer</i>
                     </div>
                 </div>
             </div>
             <div class="col-sm-5 col-md-3 dev-inner">
-                <img class="img-fluid object-fit-cover" src="./images/developers/unknown.jpg" alt="MSSN Developers">
+                <img class="img-fluid" src="./images/developers/unknown.jpg" alt="MSSN Developers">
                 <div class="dev-overlay-wrapper">
                     <div class="dev-overlay-content">
                         <p>Dawood Ayatullah</p>
+                        <i>Graphics Designer</i>
                     </div>
                 </div>
             </div>
