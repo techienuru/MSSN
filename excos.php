@@ -22,7 +22,7 @@
         <h2>MSSN EXCOS 2023 - 2024</h2>
         <div class="excos">
             <div class="excos1">
-                <img src="images/excos/ameer 2024.jpg" alt="Exco loading=" lazy"s" loading="lazy" />
+                <img src="images/excos/ameer 2024.jpg" alt="Exco" loading="eager" />
                 <div class="overlay-wrapper">
                     <div class="content">
                         <p>Umar Yahaya Dansauka</p>
@@ -32,7 +32,7 @@
             </div>
 
             <div class="excos1">
-                <img src="images/excos/unknown.jpg" alt="Excos" loading="lazy" />
+                <img src="images/excos/unknown.jpg" alt="Excos" loading="eager" />
                 <div class="overlay-wrapper">
                     <div class="content">
                         <p>Adamu Muh'd Azamu</p>
@@ -42,7 +42,7 @@
             </div>
 
             <div class="excos1">
-                <img src="images/excos/ameera 2024.jpg" alt="Excos" loading="lazy" />
+                <img src="images/excos/ameera 2024.jpg" alt="Excos" loading="eager" />
                 <div class="overlay-wrapper">
                     <div class="content">
                         <p>Aisha Jimmoh Folashade</p>
@@ -199,7 +199,7 @@
         <div class="excos">
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>Jaafar Suleiman</p>
@@ -209,7 +209,7 @@
             </div>
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>Bashiru Salisu Halidu</p>
@@ -219,7 +219,7 @@
             </div>
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>Halima Sadiya Muhammad</p>
@@ -235,7 +235,7 @@
         <div class="excos">
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>Abubakar Idris Sadiq</p>
@@ -245,7 +245,7 @@
             </div>
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>Aminu Sa'ad Shuaib</p>
@@ -255,7 +255,7 @@
             </div>
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>#############</p>
@@ -271,7 +271,7 @@
         <div class="excos">
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>Hassan Hussaini</p>
@@ -281,7 +281,7 @@
             </div>
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>##########</p>
@@ -291,7 +291,7 @@
             </div>
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>##########</p>
@@ -307,7 +307,7 @@
         <div class="excos">
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>Mustapha Adra</p>
@@ -317,7 +317,7 @@
             </div>
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>##########</p>
@@ -327,7 +327,7 @@
             </div>
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>##########</p>
@@ -343,7 +343,7 @@
         <div class="excos">
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>Abubakar Suleiman Eya</p>
@@ -353,7 +353,7 @@
             </div>
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>##########</p>
@@ -363,7 +363,7 @@
             </div>
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>##########</p>
@@ -379,7 +379,7 @@
         <div class="excos">
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>Idris Yakubu Ewa</p>
@@ -389,7 +389,7 @@
             </div>
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>##########</p>
@@ -399,7 +399,7 @@
             </div>
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>##########</p>
@@ -415,7 +415,7 @@
         <div class="excos">
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>Saleh Ibrahim Musa</p>
@@ -425,7 +425,7 @@
             </div>
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>##########</p>
@@ -435,7 +435,7 @@
             </div>
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>##########</p>
@@ -451,7 +451,7 @@
         <div class="excos">
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>Jafar Jibril paiko</p>
@@ -461,7 +461,7 @@
             </div>
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <hp>##########</p>
@@ -471,7 +471,7 @@
             </div>
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>##########</p>
@@ -487,7 +487,7 @@
         <div class="excos">
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>Abubakar Sadiq Umar </p>
@@ -497,7 +497,7 @@
             </div>
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>##########</p>
@@ -507,7 +507,7 @@
             </div>
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>##########</p>
@@ -523,7 +523,7 @@
         <div class="excos">
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>Ibrahim Ibn Sahi</p>
@@ -533,7 +533,7 @@
             </div>
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>##########</p>
@@ -543,7 +543,7 @@
             </div>
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>##########</p>
@@ -559,7 +559,7 @@
         <div class="excos">
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>Imran Omadefo</p>
@@ -569,7 +569,7 @@
             </div>
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>##########</p>
@@ -579,7 +579,7 @@
             </div>
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>##########</p>
@@ -595,7 +595,7 @@
         <div class="excos">
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>Idris Muhammad Ladan</p>
@@ -605,7 +605,7 @@
             </div>
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>##########</p>
@@ -615,7 +615,7 @@
             </div>
             <div class="excos1">
                 <div class="Ameer">
-                    <img src="images/unknown .jpg" alt="Exco loading="lazy"s">
+                    <img src="images/unknown .jpg" alt="Exco" loading="lazy">
                 </div>
                 <div class="content">
                     <p>##########</p>
