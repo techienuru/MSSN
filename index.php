@@ -17,11 +17,11 @@
   <section
     class="d-flex justify-content-center align-items-center"
     id="hero-section">
-    <h3>
+    <!-- <h3>
       <span>WELCOME TO</span>
       <span>MSSN</span>
       <span>NSUK CHAPTER</span>
-    </h3>
+    </h3> -->
   </section>
   <!-- End of Hero Section -->
 
@@ -30,7 +30,7 @@
     <div class="container">
       <div class="row gap-md-5">
         <div class="col-md-5 my-4 m-md-0 d-flex justify-content-center">
-          <img src="./images/logo.png" alt="" class="img-fluid" />
+          <img src="./images/logo.png" alt="MSSN logo" class="img-fluid" loading="lazy" />
         </div>
         <div class="col-md-6">
           <p class="display-5">Brief History About MSSN</p>
@@ -71,7 +71,7 @@
               <img
                 src="./images/visit to orphanage home.jpg"
                 alt="first blog pix"
-                class="img-fluid h-100 w-100 object-fit-cover" />
+                class="img-fluid h-100 w-100 object-fit-cover" loading="lazy" />
             </div>
             <div class="col-sm-6 mb-4 m-sm-0">
               <p class="fw-bold">
@@ -101,7 +101,7 @@
               <img
                 src="./images/New mssn mosque.jpg"
                 alt="first blog pix"
-                class="img-fluid h-100 w-100 object-fit-cover" />
+                class="img-fluid h-100 w-100 object-fit-cover" loading="lazy" />
             </div>
             <div class="col-sm-6 mb-4 m-sm-0">
               <p class="fw-bold">
@@ -199,7 +199,7 @@
             src="./images/fisabilillah.jpg"
             alt="fisabilillah image"
             height="30px"
-            class="img-fluid w-100" />
+            class="img-fluid w-100" loading="lazy" />
         </div>
         <div class="col-md-6">
           <h3>FISABILILLAH!!!</h3>
@@ -227,7 +227,7 @@
           <img
             src="./images/excos/ameer 2024.jpg"
             alt="Exco pix"
-            class="img-fluid object-fit-cover h-100" />
+            class="img-fluid object-fit-cover h-100" loading="lazy" />
           <div class="overlay-wrapper">
             <div class="img-overlay">
               <p>Umar Yahaya Dansauka</p>
@@ -239,7 +239,7 @@
           <img
             src="./images/excos/ameera 2024.jpg"
             alt="Ameera pix"
-            class="img-fluid object-fit-cover h-100" />
+            class="img-fluid object-fit-cover h-100" loading="lazy" />
           <div class="overlay-wrapper">
             <div class="img-overlay">
               <p>Aisha Jimmoh Folashade</p>
@@ -251,7 +251,7 @@
           <img
             src="./images/excos/sec gen 2024.jpg"
             alt="Exco pix"
-            class="img-fluid object-fit-cover h-100" />
+            class="img-fluid object-fit-cover h-100" loading="lazy" />
           <div class="overlay-wrapper">
             <div class="img-overlay">
               <p>Adamu Muh'd Azamu</p>
@@ -466,6 +466,30 @@
   <?php include_once "./includes/footer.php"; ?>
   <!-- Footer End -->
 
+
+  <!-- SCRIPTS -->
+  <!-- Typed JS Library codes -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    // Initialize the typewriter effect
+    document.addEventListener("DOMContentLoaded", function() {
+      const options = {
+        strings: [
+          "WELCOME TO MSSN NSUK CHAPTER",
+          "KAABO SÍ MSSN NSUK CHAPTER", // Yoruba
+          "BARKA DA ZUWA MSSN NSUK CHAPTER", // Hausa
+          "NNỌỌ WELCOME MSSN NSUK CHAPTER" // Igbo
+        ],
+        typeSpeed: 50, // Speed of typing
+        backSpeed: 30, // Speed of backspacing
+        loop: true, // Loop the typewriter effect
+        showCursor: false // Disable the blinking cursor
+      };
+
+      // Apply Typed.js to the element
+      const typed = new Typed("#hero-section", options);
+    });
+  </script>
   <script src="./assets/js/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
