@@ -17,11 +17,7 @@
   <section
     class="d-flex justify-content-center align-items-center"
     id="hero-section">
-    <!-- <h3>
-      <span>WELCOME TO</span>
-      <span>MSSN</span>
-      <span>NSUK CHAPTER</span>
-    </h3> -->
+    <div id="typed-output"></div>
   </section>
   <!-- End of Hero Section -->
 
@@ -475,9 +471,9 @@
     document.addEventListener("DOMContentLoaded", function() {
       const options = {
         strings: [
-          "WELCOME TO MSSN NSUK CHAPTER",
-          "KAABO SÍ MSSN NSUK CHAPTER", // Yoruba
+          "WELCOME TO MSSN NSUK CHAPTER", // English
           "BARKA DA ZUWA MSSN NSUK CHAPTER", // Hausa
+          "KAABO SÍ MSSN NSUK CHAPTER", // Yoruba
           "NNỌỌ WELCOME MSSN NSUK CHAPTER" // Igbo
         ],
         typeSpeed: 50, // Speed of typing
@@ -487,7 +483,7 @@
       };
 
       // Apply Typed.js to the element
-      const typed = new Typed("#hero-section", options);
+      const typed = new Typed("#typed-output", options);
     });
   </script>
   <script src="./assets/js/script.js"></script>

@@ -14,16 +14,14 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: scroll;
+  background-attachment: fixed;
 }
-#index-body #hero-section > h3 > span {
-  display: block;
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
+#index-body #hero-section > #typed-output {
   color: white;
-  margin-bottom: 8px;
+  font-size: clamp(1rem, 5vw, 1.8rem); /* 1.8rem = 30px */
+  text-wrap: nowrap;
 }
+
 /* End of Index Hero Section */
 
 /* Start of Index about Section */
