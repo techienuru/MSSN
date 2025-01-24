@@ -37,13 +37,13 @@
                 <img
                   src="./images/visit to prison.jpg"
                   alt=""
-                  class="img-fluid w-100" />
+                  class="img-fluid w-100" loading="eager" />
               </div>
               <div class="carousel-item">
                 <img
                   src="./images/visit to orphanage home.jpg"
                   alt=""
-                  class="img-fluid w-100" />
+                  class="img-fluid w-100" loading="eager" />
               </div>
               <div class="carousel-item">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/2K3gYeSubko?si=CuaoKuzjzdiUY-Z_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

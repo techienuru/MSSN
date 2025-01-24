@@ -138,7 +138,7 @@
               <img
                 src="./images/visit to orphanage home.jpg"
                 alt="first blog pix"
-                class="img-fluid w-100 object-fit-cover" />
+                class="img-fluid w-100 object-fit-cover" loading="lazy" />
               <div class="card-body">
                 <p class="fw-bold">
                   The NSUK Muslim ummah visits the graveyard, orphanage home and
@@ -168,7 +168,7 @@
               <img
                 src="./images/New mssn mosque.jpg"
                 alt="first blog pix"
-                class="img-fluid w-100 object-fit-cover" />
+                class="img-fluid w-100 object-fit-cover" loading="lazy" />
               <div class="card-body">
                 <p class="fw-bold">
                   MSSN NSUK Commence the re-construction of Old central Mosque
@@ -195,7 +195,7 @@
               <img
                 src="./images/Upcoming Walimah.jpg"
                 alt="first blog pix"
-                class="img-fluid w-100 object-fit-cover" />
+                class="img-fluid w-100 object-fit-cover" loading="lazy" />
               <div class="card-body">
                 <p class="fw-bold">
                   Orientation for the newly admitted students
@@ -225,7 +225,7 @@
               <img
                 src="./images/visit to orphanage home.jpg"
                 alt="first blog pix"
-                class="img-fluid w-100 object-fit-cover" />
+                class="img-fluid w-100 object-fit-cover" loading="lazy" />
               <div class="card-body">
                 <p class="fw-bold">
                   The NSUK Muslim ummah visits the graveyard, orphanage home and
@@ -255,7 +255,7 @@
               <img
                 src="./images/New mssn mosque.jpg"
                 alt="first blog pix"
-                class="img-fluid w-100 object-fit-cover" />
+                class="img-fluid w-100 object-fit-cover" loading="lazy" />
               <div class="card-body">
                 <p class="fw-bold">
                   MSSN NSUK Commence the re-construction of Old central Mosque
@@ -282,7 +282,7 @@
               <img
                 src="./images/visit to orphanage home.jpg"
                 alt="first blog pix"
-                class="img-fluid w-100 object-fit-cover" />
+                class="img-fluid w-100 object-fit-cover" loading="lazy" />
               <div class="card-body">
                 <p class="fw-bold">
                   The NSUK Muslim ummah visits the graveyard, orphanage home and
@@ -314,7 +314,7 @@
               <img
                 src="./images/visit to orphanage home.jpg"
                 alt="first blog pix"
-                class="img-fluid w-100 object-fit-cover" />
+                class="img-fluid w-100 object-fit-cover" loading="lazy" />
               <div class="card-body">
                 <p class="fw-bold">
                   The NSUK Muslim ummah visits the graveyard, orphanage home and
@@ -344,7 +344,7 @@
               <img
                 src="./images/New mssn mosque.jpg"
                 alt="first blog pix"
-                class="img-fluid w-100 object-fit-cover" />
+                class="img-fluid w-100 object-fit-cover" loading="lazy" />
               <div class="card-body">
                 <p class="fw-bold">
                   MSSN NSUK Commence the re-construction of Old central Mosque
@@ -371,7 +371,7 @@
               <img
                 src="./images/visit to orphanage home.jpg"
                 alt="first blog pix"
-                class="img-fluid w-100 object-fit-cover" />
+                class="img-fluid w-100 object-fit-cover" loading="lazy" />
               <div class="card-body">
                 <p class="fw-bold">
                   The NSUK Muslim ummah visits the graveyard, orphanage home and

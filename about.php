@@ -18,7 +18,7 @@
     </div>
     <div class="about">
         <div class="about-info">
-            <img src="./images/logo.png" alt="logo">
+            <img src="./images/logo.png" alt="logo" loading="eager">
             <p>
                 <span class="d-block">
                     The Muslim Students' Society of Nigeria popularly referred to
@@ -121,7 +121,7 @@
         </div>
         <div class="row gap-4 justify-content-center dev-body">
             <div class="col-sm-5 col-md-3 dev-inner">
-                <img class="img-fluid" src="./images/developers/nurudeen.jpeg" alt="MSSN Developers">
+                <img class="img-fluid" src="./images/developers/nurudeen.jpeg" alt="MSSN Developers" loading="lazy">
                 <div class="dev-overlay-wrapper">
                     <div class="dev-overlay-content">
                         <p>Ibrahim Nurudeen Shehu</p>
@@ -130,7 +130,7 @@
                 </div>
             </div>
             <div class="col-sm-5 col-md-3 dev-inner">
-                <img class="img-fluid" src="./images/developers/chief.JPG" alt="MSSN Developers">
+                <img class="img-fluid" src="./images/developers/chief.JPG" alt="MSSN Developers" loading="lazy">
                 <div class="dev-overlay-wrapper">
                     <div class="dev-overlay-content">
                         <p>Abubakar Yahaya</p>
@@ -139,7 +139,7 @@
                 </div>
             </div>
             <div class="col-sm-5 col-md-3 dev-inner">
-                <img class="img-fluid" src="./images/developers/muhammad.jpg" alt="MSSN Developers">
+                <img class="img-fluid" src="./images/developers/muhammad.jpg" alt="MSSN Developers" loading="lazy">
                 <div class="dev-overlay-wrapper">
                     <div class="dev-overlay-content">
                         <p>Husseini Muh'd Aminu</p>
@@ -148,7 +148,7 @@
                 </div>
             </div>
             <div class="col-sm-5 col-md-3 dev-inner">
-                <img class="img-fluid" src="./images/developers/umar.jpg" alt="MSSN Developers">
+                <img class="img-fluid" src="./images/developers/umar.jpg" alt="MSSN Developers" loading="lazy">
                 <div class="dev-overlay-wrapper">
                     <div class="dev-overlay-content">
                         <p>Jibril Umar Faruk</p>
@@ -157,7 +157,7 @@
                 </div>
             </div>
             <div class="col-sm-5 col-md-3 dev-inner">
-                <img class="img-fluid" src="./images/developers/unknown.jpg" alt="MSSN Developers">
+                <img class="img-fluid" src="./images/developers/unknown.jpg" alt="MSSN Developers" loading="lazy">
                 <div class="dev-overlay-wrapper">
                     <div class="dev-overlay-content">
                         <p>Abdulrahman Umar</p>
@@ -166,7 +166,7 @@
                 </div>
             </div>
             <div class="col-sm-5 col-md-3 dev-inner">
-                <img class="img-fluid" src="./images/developers/shuraihu.jpg" alt="MSSN Developers">
+                <img class="img-fluid" src="./images/developers/shuraihu.jpg" alt="MSSN Developers" loading="lazy">
                 <div class="dev-overlay-wrapper">
                     <div class="dev-overlay-content">
                         <p>Shuraihu Usman</p>
@@ -175,7 +175,7 @@
                 </div>
             </div>
             <div class="col-sm-5 col-md-3 dev-inner">
-                <img class="img-fluid" src="./images/developers/unknown.jpg" alt="MSSN Developers">
+                <img class="img-fluid" src="./images/developers/unknown.jpg" alt="MSSN Developers" loading="lazy">
                 <div class="dev-overlay-wrapper">
                     <div class="dev-overlay-content">
                         <p>Sadeeq Umar Abubakar</p>
@@ -184,7 +184,7 @@
                 </div>
             </div>
             <div class="col-sm-5 col-md-3 dev-inner">
-                <img class="img-fluid" src="./images/developers/faisal.jpg" alt="MSSN Developers">
+                <img class="img-fluid" src="./images/developers/faisal.jpg" alt="MSSN Developers" loading="lazy">
                 <div class="dev-overlay-wrapper">
                     <div class="dev-overlay-content">
                         <p>Kabiru Muh'd Faisal</p>
@@ -193,7 +193,7 @@
                 </div>
             </div>
             <div class="col-sm-5 col-md-3 dev-inner">
-                <img class="img-fluid" src="./images/developers/unknown.jpg" alt="MSSN Developers">
+                <img class="img-fluid" src="./images/developers/unknown.jpg" alt="MSSN Developers" loading="lazy">
                 <div class="dev-overlay-wrapper">
                     <div class="dev-overlay-content">
                         <p>Dawood Ayatullah</p>

@@ -29,7 +29,7 @@
           <img
             src="./images/Upcoming Walimah.jpg"
             alt=""
-            class="img-fluid w-100" />
+            class="img-fluid w-100" loading="lazy" />
           <div class="d-flex flex-wrap justify-content-between pe-sm-5 py-3">
             <p>Category: Event</p>
             <p>
