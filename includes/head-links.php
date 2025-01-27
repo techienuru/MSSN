@@ -1,3 +1,17 @@
+<!-- Google Analytics -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D545FLJLPX"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-D545FLJLPX');
+</script>
+
 <!-- Metadata and SEO  -->
 <meta charset="UTF-8" />
 <meta name="description" content="Learn about MSSN NSUK Chapter, its history, events, and leaders.">
