@@ -79,7 +79,7 @@
                 students ummah paid a visit to the graveyard, orphanage home
                 and prisoners
               </p>
-              <a href="./blog-details.php" class="btn details-btn">View Details</a>
+              <a href="/blog/4" class="btn details-btn">View Details</a>
             </div>
           </div>
           <div class="row mb-4">
@@ -107,7 +107,7 @@
                 The old central Mosque has been demolished and re-construction
                 is now underway.
               </p>
-              <a href="./blog-details.php" class="btn details-btn">View Details</a>
+              <a href="/blog/4" class="btn details-btn">View Details</a>
             </div>
           </div>
         </div>
@@ -135,7 +135,7 @@
                 celebrate the achievements of our outgoing Excos and welcome
                 the new leaders of MSSN NSUK Chapter.
               </p>
-              <a href="./event-details.php" class="btn details-btn">Event Details</a>
+              <a href="/event/1" class="btn details-btn">Event Details</a>
             </div>
           </div>
           <div class="row mb-5">
@@ -164,13 +164,13 @@
                 guidance on academic life, campus culture, and introduced
                 students to the supportive MSSN community.
               </p>
-              <a href="./event-details.php" class="btn details-btn">Event Details</a>
+              <a href="/event/2" class="btn details-btn">Event Details</a>
             </div>
           </div>
         </div>
       </div>
       <div class="d-flex justify-content-center">
-        <a href="./blog.php" class="btn">View More</a>
+        <a href="blog" class="btn">View More</a>
       </div>
     </div>
   </section>
@@ -247,7 +247,7 @@
         </div>
       </div>
       <div class="d-flex justify-content-center">
-        <a href="./excos.php" class="btn">View More</a>
+        <a href="/excos" class="btn">View More</a>
       </div>
     </div>
   </section>

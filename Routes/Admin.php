@@ -1,59 +1,74 @@
 <?php
+
 use App\Auth;
 
-$loginPage = '/\/Admin\/login/';
-$logoutPage = '/\/Admin\/logout/';
-$homePage = '/\/Admin\/home/';
-$doctorPage = '/\/Admin\/doctor/';
-$nursePage = '/\/Admin\/nurse/';
-$patientPage = '/\/Admin\/patient/';
-$appointmentPage = '/\/Admin\/appointment/';
-$medicalPage = '/\/Admin\/medical-record/';
-$accountPage = '/\/Admin\/account/';
-$process = '/\/Admin\/process\/([a-z0-9-]+)/i';
+$loginPage = '/\/Admin\/login$/';
+$logoutPage = '/\/Admin\/logout$/';
+$homePage = '/\/Admin\/dashboard$/';
+$sessionPage = '/\/Admin\/session$/';
+$facultyPage = '/\/Admin\/faculty$/';
+$departmentPage = '/\/Admin\/department$/';
+$blogPage = '/\/Admin\/blog$/';
+$eventPage = '/\/Admin\/event$/';
+$pastqaPage = '/\/Admin\/pastqa$/';
+$ebookPage = '/\/Admin\/ebook$/';
+$excosPage = '/\/Admin\/excos$/';
+$medicalPage = '/\/Admin\/medical-record$/';
+$accountPage = '/\/Admin\/account$/';
+$process = '/\/Admin\/process\/([a-z0-9-]+)$/i';
+$adminHome = '/\/Admin$/';
 $active = 0;
 
-if(!isset($_SESSION['AdminID']) && $request !== '/Admin/login') {
-    Redirect(APP_URL.'/Admin/login');
-} else {
-
-    if(preg_match($loginPage, $request, $output)) {
-        require_once $AdminCont.'/loginController.php';
-    } else if(preg_match($homePage, $request, $output)) {
-        $active = 1;
-        require_once $AdminCont.'/HomeController.php';
-    }else if(preg_match($doctorPage, $request, $output)) {
-        $active = 2;
-        require_once $AdminCont.'/DoctorController.php';
-    }else if(preg_match($process, $request, $output)) {
-        $page = $output[1];
-        require_once $AdminCont.'/process/'.$page.'.php';
-    }else if(preg_match($nursePage, $request, $output)) {
-        $active = 3;
-        require_once $AdminCont.'/NurseController.php';
-    } else if(preg_match($patientPage, $request, $output)) {
-        $active = 4;
-        require_once $AdminCont.'/PatientController.php';
-    }  else if(preg_match($appointmentPage, $request, $output)) {
-        $active = 5;
-        require_once $AdminCont.'/AppointmentController.php';
-    }  else if(preg_match($medicalPage, $request, $output)) {
-        $active = 6;
-         require_once $AdminCont.'/MedicalController.php';
-    }  else if(preg_match($accountPage, $request, $output)) {
-        $active = 7;
-        require_once $AdminCont.'/AccountController.php';
-    }  else if(preg_match($logoutPage, $request, $output)) {
-       
-        $logout = (new Auth)->logout();
-        echo $logout;
-        Redirect(ADMIN_URL.$loginPage);
-        
-    } else {
-        
-        require_once $view.'/404.php';
-    }
+// Redirect users to login if they are not logged in and the request is not the login page
+if (!isset($_SESSION['AdminID']) && !preg_match($loginPage, $request)) {
+    Redirect(APP_URL . '/Admin/login');
+    exit;
 }
 
+// If logged in and request is /Admin, redirect to dashboard
+if (isset($_SESSION['AdminID']) && preg_match($adminHome, $request)) {
+    Redirect(APP_URL . '/Admin/dashboard');
+    exit;
+}
 
-
+// Handle different routes
+if (preg_match($loginPage, $request)) {
+    require_once $AdminCont . '/loginController.php';
+} elseif (preg_match($homePage, $request)) {
+    $active = 1;
+    require_once $AdminCont . '/dashboardController.php';
+} elseif (preg_match($sessionPage, $request)) {
+    $active = 2;
+    require_once $AdminCont . '/sessionController.php';
+} elseif (preg_match($process, $request, $output)) {
+    $page = $output[1];
+    require_once $AdminCont . '/process/' . $page . '.php';
+} elseif (preg_match($facultyPage, $request)) {
+    $active = 3;
+    require_once $AdminCont . '/facultyController.php';
+} elseif (preg_match($departmentPage, $request)) {
+    $active = 4;
+    require_once $AdminCont . '/departmentController.php';
+} elseif (preg_match($blogPage, $request)) {
+    $active = 5;
+    require_once $AdminCont . '/blogController.php';
+} elseif (preg_match($eventPage, $request)) {
+    $active = 8;
+    require_once $AdminCont . '/eventController.php';
+} elseif (preg_match($pastqaPage, $request)) {
+    $active = 9;
+    require_once $AdminCont . '/pastController.php';
+} elseif (preg_match($ebookPage, $request)) {
+    $active = 10;
+    require_once $AdminCont . '/ebookController.php';
+} elseif (preg_match($excosPage, $request)) {
+    $active = 11;
+    require_once $AdminCont . '/ExcosController.php';
+} elseif (preg_match($logoutPage, $request)) {
+    $logout = (new Auth)->logout();
+    Redirect(APP_URL . '/Admin/login');
+    exit;
+} else {
+    header("HTTP/1.1 404 Not Found");
+    require_once $view . '/404.php';
+}

@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <!-- Including links -->
-  <?php include_once "./includes/head-links.php"; ?>
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <link rel="stylesheet" href="./assets/css/responsive.css" />
-  <link rel="stylesheet" href="./assets/css/animations.css" />
-  <link rel="stylesheet" href="./assets/css/blog.css" />
-</head>
-
-<body>
-  <!-- Start of Navbar -->
-  <?php include_once "./includes/navbar.php"; ?>
-  <!-- End of Navbar -->
+<link rel="stylesheet" href="./public/assets/css/blog.css" />
 
   <main>
     <section class="header">
@@ -185,13 +169,3 @@
       </div>
     </section>
   </main>
-  <!-- Footer Start -->
-  <?php include_once "./includes/footer.php"; ?>
-  <!-- Footer End -->
-
-  <!-- Scripts -->
-  <script src="./assets/js/script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
-
-</html>

@@ -43,11 +43,11 @@
              <div class="col">
                  <h5>Quick Links</h5>
                  <ul class="row row-cols-2 justify-content-end">
-                     <a href="./index.php" class="nav-link">Home</a>
-                     <a href="./about.php" class="nav-link">About</a>
-                     <a href="./library.php" class="nav-link">Library & Resources</a>
-                     <a href="./excos.php" class="nav-link">Excos</a>
-                     <a href="./blog.php" class="nav-link">Blog & Event</a>
+                     <a href="/" class="nav-link">Home</a>
+                     <a href="/about" class="nav-link">About</a>
+                     <a href="/library" class="nav-link">Library & Resources</a>
+                     <a href="/excos" class="nav-link">Excos</a>
+                     <a href="/blog" class="nav-link">Blog & Event</a>
                      <a href="#" class="nav-link">#To top</a>
                  </ul>
              </div>
@@ -57,7 +57,7 @@
          </p>
      </div>
  </footer>
-  <script src="./public/assets/js/script.js"></script>
+  <script src="<?php echo APP_URL?>/public/assets/js/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 

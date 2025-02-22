@@ -1,22 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <!-- Including links -->
-    <?php include_once "./includes/head-links.php"; ?>
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/responsive.css" />
-    <link rel="stylesheet" href="./assets/css/animations.css" />
-    <link rel="stylesheet" href="./assets/css/library.css">
-</head>
-
-<body>
-
-    <!-- Start of Navbar -->
-    <?php include_once "./includes/navbar.php"; ?>
-    <!-- End of Navbar -->
-
+<link rel="stylesheet" href="./public/assets/css/library.css">
     <section id="Hero" class="hero-section">
         <h1>LIBRARY & RESOURCES</h1>
     </section>
@@ -69,7 +51,7 @@
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.
                             </p>
                             <div class="past-question-item-footer">
-                                <a href="#" class="btn">Download</a>
+                                <a href="/dl-pq/22" class="btn">Download</a>
                                 <span class="pq-lvl">100L</span>
                             </div>
                         </div>
@@ -81,7 +63,7 @@
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.
                             </p>
                             <div class="past-question-item-footer">
-                                <a href="#" class="btn">Download</a>
+                                <a href="/dl-pq/23" class="btn">Download</a>
                                 <span class="pq-lvl">100L</span>
                             </div>
                         </div>
@@ -104,7 +86,7 @@
                             </p>
 
                             <div class="past-question-item-footer">
-                                <a href="#" class="btn">Download</a>
+                                <a href="/dl-pq/24" class="btn">Download</a>
                                 <span class="pq-lvl">100L</span>
                             </div>
 
@@ -117,7 +99,7 @@
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.
                             </p>
                             <div class="past-question-item-footer">
-                                <a href="" class="btn">Download</a>
+                                <a href="/dl-pq/22" class="btn">Download</a>
                                 <span class="pq-lvl">100L</span>
                             </div>
                         </div>
@@ -143,13 +125,3 @@
             </div>
             </section>
     </div>
-    <!-- Footer Start -->
-    <?php include_once "./includes/footer.php"; ?>
-    <!-- Footer End -->
-
-    <!-- Scripts -->
-    <script src="./assets/js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
-
-</html>

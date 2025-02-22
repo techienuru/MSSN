@@ -6,9 +6,14 @@
   <?php include_once "./Template/Main/includes/head-links.php"; ?>
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="./public/assets/css/style.css" />
-  <link rel="stylesheet" href="./public/assets/css/responsive.css" />
-  <link rel="stylesheet" href="./public/assets/css/animations.css" />
+  <link rel="stylesheet" href="<?php echo APP_URL?>/public/assets/css/style.css" />
+  <link rel="stylesheet" href="<?php echo APP_URL?>/public/assets/css/responsive.css" />
+  <link rel="stylesheet" href="<?php echo APP_URL?>/public/assets/css/animations.css" />
+
+  <title>
+   <?php echo $title; ?> | <?php echo APP_NAME; ?>
+  </title>
+
 </head>
 
 <body id="index-body">

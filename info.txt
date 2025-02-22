@@ -1,5 +1,21 @@
-server "localhost"
-Username "mssnnsuk_chapter"
-Password "mssnnsukchapter"
-DB "mssnnsuk_chapter"
+#Database file
+the database file was modified kindly updated  with the one in this project
+
+# CONFIG - config
+config.php change site configuration;
+db.php change database details;
+
+#CONTROLLER 
+this folder contain the backend codes for both Admin and Main Interface
+
+#Template
+This folder contain the frontend (HTML,CSS and PHP) of both Admin and Main interface;
+
+#Public
+this folder contain the storage, assets and all the public files of the site
+
+#Model
+this contain the classes and functions of the site
+
+Shuraih99Dev|08140419490|shuraihusman@gmail.com
 
