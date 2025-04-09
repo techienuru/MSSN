@@ -1,7 +1,8 @@
-/* 
-    Colors => 60: #04B054, 30:  10:
-    Optional => 1: #009e71, 2: #007380
-*/
+:root {
+  --primary-color: #04b054;
+  --secondary-color: #009e71;
+  --tertiary-color: #007380;
+}
 
 body {
   font-family: sans-serif; /* Fall back Font Family */
