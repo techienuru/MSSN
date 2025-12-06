@@ -125,20 +125,34 @@
 
         </section>
 
-        <secStion id="Islamic_E-books" class="e-books">
+        <section id="Islamic_E-books" class="e-books">
             <h2>ISLAMIC E-BOOKS</h2>
-            <div class="e-book-container">
-                <div class="e-book-item"></div>
-                <div class="e-book-item"></div>
-                <div class="e-book-item"></div>
-                <div class="e-book-item"></div>
-                <div class="e-book-item"></div>
-                <div class="e-book-item"></div>
-                <div class="e-book-item"></div>
-                <div class="e-book-item"></div>
-                <div class="e-book-item"></div>
+            <div class="e-book-container ">
+                <div class="e-book-item card">
+                    <img class="ebook-cover" src="/images/blog1.jpg" alt="">
+                    <p class="ebook-title">Pillars of Islam</p>
+                    <button class="btn">
+                        Read
+                    </button>
+                </div>
+
+                <div class="e-book-item card">
+                    <img class="ebook-cover" src="/images/blog1.jpg" alt="">
+                    <p class="ebook-title">Preparing for Ramadan</p>
+                    <button class="btn">
+                        Read
+                    </button>
+                </div>
+
+                <div class="e-book-item card">
+                    <img class="ebook-cover" src="/images/blog1.jpg" alt="">
+                    <p class="ebook-title">200 Golden Hadiths</p>
+                    <button class="btn">
+                        Read
+                    </button>
+                </div>
             </div>
-            </section>
+        </section>
     </div>
     <!-- Footer Start -->
     <?php include_once "./includes/footer.php"; ?>

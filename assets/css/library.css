@@ -120,17 +120,21 @@ max-width: 900px;
 }
 
 .e-book-item {
-  background-color: #f0f0f0;
-  /* Example background color for items */
   width: 100%;
-  height: 160px;
-  border: 1px solid #ccc;
-  text-align: center;
-  background-image: url(/asset/images/images.png);
+  height: auto;
+  border-radius: 7px;
+  padding: 7px;
+}
+.ebook-cover{
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  width: 100%;
+  height: 150px;
   border-radius: 7px;
+  margin-bottom: 8px;
+}
+.ebook-title{
+  font-weight: bold;
 }
 
 .card {
