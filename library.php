@@ -66,7 +66,8 @@
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.
                             </p>
                             <div class="past-question-item-footer">
-                                <a href="#" class="btn">Download</a>
+                                <a href="#" class="btn"><i class="fa fa-download"></i> Download</a>
+
                                 <span class="pq-lvl">100L</span>
                             </div>
                         </div>
@@ -78,7 +79,7 @@
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.
                             </p>
                             <div class="past-question-item-footer">
-                                <a href="#" class="btn">Download</a>
+                                <a href="#" class="btn"><i class="fa fa-download"></i> Download</a>
                                 <span class="pq-lvl">100L</span>
                             </div>
                         </div>
@@ -101,7 +102,7 @@
                             </p>
 
                             <div class="past-question-item-footer">
-                                <a href="#" class="btn">Download</a>
+                                <a href="#" class="btn"><i class="fa fa-download"></i> Download</a>
                                 <span class="pq-lvl">100L</span>
                             </div>
 
@@ -114,7 +115,7 @@
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.
                             </p>
                             <div class="past-question-item-footer">
-                                <a href="" class="btn">Download</a>
+                                <a href="" class="btn"><i class="fa fa-download"></i> Download</a>
                                 <span class="pq-lvl">100L</span>
                             </div>
                         </div>
@@ -128,29 +129,92 @@
         <section id="Islamic_E-books" class="e-books">
             <h2>ISLAMIC E-BOOKS</h2>
             <div class="e-book-container ">
-                <div class="e-book-item card">
-                    <img class="ebook-cover" src="/images/blog1.jpg" alt="">
-                    <p class="ebook-title">Pillars of Islam</p>
-                    <button class="btn">
-                        Read
-                    </button>
-                </div>
 
                 <div class="e-book-item card">
-                    <img class="ebook-cover" src="/images/blog1.jpg" alt="">
-                    <p class="ebook-title">Preparing for Ramadan</p>
-                    <button class="btn">
-                        Read
-                    </button>
+
+                    <div class="card-info">
+                        <img class="ebook-cover" src="/images/blog1.jpg" alt="">
+
+                        <div>
+                            <h5 class="card-title">Preparing for Ramadan</h5>
+                            <p class="ebook-description">Description of the corresponding book goes here</p>
+                        </div>
+                    </div>
+
+                    <div class="footer">
+                        <span class="btn btn-light">
+                            <i class="fa fa-download"></i>
+                            Download
+                        </span>
+                        <span class="btn btn-light"> <i class="fa fa-share"></i>
+                            Share</span>
+                    </div>
+
+                </div>
+                <div class="e-book-item card">
+
+                    <div class="card-info">
+                        <img class="ebook-cover" src="/images/blog1.jpg" alt="">
+
+                        <div>
+                            <h5 class="card-title">Preparing for Ramadan</h5>
+                            <p class="ebook-description">Description of the corresponding book goes here</p>
+                        </div>
+                    </div>
+
+                    <div class="footer">
+                        <span class="btn ">
+                            <i class="fa fa-download"></i>
+                            Download
+                        </span>
+                        <span class="btn "> <i class="fa fa-share"></i>
+                            Share</span>
+                    </div>
+
+                </div>
+                <div class="e-book-item card">
+
+                    <div class="card-info">
+                        <img class="ebook-cover" src="/images/blog1.jpg" alt="">
+
+                        <div>
+                            <h5 class="card-title">Preparing for Ramadan</h5>
+                            <p class="ebook-description">Description of the corresponding book goes here</p>
+                        </div>
+                    </div>
+
+                    <div class="footer">
+                        <span class="btn btn-light">
+                            <i class="fa fa-download"></i>
+                            Download
+                        </span>
+                        <span class="btn btn-light"> <i class="fa fa-share"></i>
+                            Share</span>
+                    </div>
+
+                </div>
+                <div class="e-book-item card">
+
+                    <div class="card-info">
+                        <img class="ebook-cover" src="/images/blog1.jpg" alt="">
+
+                        <div>
+                            <h5 class="card-title">Preparing for Ramadan</h5>
+                            <p class="ebook-description">Description of the corresponding book goes here</p>
+                        </div>
+                    </div>
+
+                    <div class="footer">
+                        <span class="btn ">
+                            <i class="fa fa-download"></i>
+                            Download
+                        </span>
+                        <span class="btn btn-light"> <i class="fa fa-share"></i>
+                            Share</span>
+                    </div>
+
                 </div>
 
-                <div class="e-book-item card">
-                    <img class="ebook-cover" src="/images/blog1.jpg" alt="">
-                    <p class="ebook-title">200 Golden Hadiths</p>
-                    <button class="btn">
-                        Read
-                    </button>
-                </div>
             </div>
         </section>
     </div>
